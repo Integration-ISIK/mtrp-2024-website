@@ -2,7 +2,7 @@ export default function Footer() {
     return (
     <footer className="bg-[#122038] mt-auto text-white">
 
-      <div className="mx-auto w-auto max-w-screen-xl p-4 h-100 py-6 lg:py-8">
+      <div className="mx-auto w-full p-4 h-100 py-6 lg:py-8">
         <div className='flex flex-row flex-grow justify-between'>
           <div className='flex flex-col md:flex-row '>
             <p className="text-xl md:text-3xl mx-4 pt-6 md:pb-auto md:pt-auto text-center md:text-start text-[#E2E3EE]">Contact Us</p>
