@@ -10,8 +10,8 @@ const RegisterLinkEvent: MouseEventHandler<HTMLButtonElement> = (event) => {
 
 export default function Nav(){
     return (
-      <header className="p-12 text-white">
-        <nav className="bg-[#122038] fixed w-full z-20 top-0 start-0 border-b border-gray-200">
+      <header className="absolute top-0 text-white">
+        <nav className="bg-[#122038] fixed w-full z-30 top-0 start-0 border-b border-gray-200">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <img src={mtrp_white} className='flex items-center space-x-3 rtl:space-x-reverse max-w-16 max-h-auto'/>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
