@@ -18,10 +18,10 @@ export default function Home() {
         <div className="flex-grow w-full bg-[#7F8193] bg-cover bg-left-top h-auto max-w-screen pt-4" >
             <div className="md:p-2">
                 <div className=" whitespace-pre-line font-bold text-4xl md:text-6xl  px-2">
-                    <p className='text-[#F9DEB5] text-center'>About Us</p>
+                    <p className='text-[#F9DEB5] text-center'>Program</p>
                 </div>
-                <p className="text-xl pt-2 pb-10 md:text-2xl text-white text-center leading-8 mx-[10%]">
-                The students and research scholars of the <div className="pt-2">
+                <p className="text-xl pt-4 pb-10 md:text-2xl text-white text-center leading-8 mx-[10%]">
+                {/* The students and research scholars of the <div className="pt-2">
                     <img src="/img/isi.jpeg" className="mx-auto w-full max-w-[30rem] md:max-w-[40rem] pb-4" alt="" />
                     <a href="https://www.isical.ac.in" className='text-[#43ffaa] font-medium underline underline-offset-[0.4rem] hover:no-underline'>Indian Statistical Institute, Kolkata,</a>
                 </div> organize the <span className='text-black font-bold'>
@@ -33,21 +33,10 @@ export default function Home() {
                 a young age. Additionally, it provides students with an opportunity to assess themselves in 
                 comparison to their peers nationwide and offers a chance to <span className="text-[#32e4ff] underline underline-offset-[0.4rem] decoration-[#fd6114] font-bold">interact with celebrated mathematicians</span> and scientists.</p>
                 <div className="pt-2 mx-[10%]"><img src="/img/dinosaur.jpeg" className="mx-auto w-full max-w-[30rem] md:max-w-[40rem] pb-4" alt="" /></div>
-                <p className='text-xl p-2 md:text-2xl text-white text-center leading-8 mx-[10%]'><a href="https://en.wikipedia.org/wiki/Indian_Statistical_Institute" className='text-black font-bold'>Indian Statistical Institute (ISI) </a>is an<span className="text-[#e0ff43] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]"> Institute of National Importance</span> recognized by an Act of of Parliament of India. ISI is a center for excellence in <span className="text-[#32e4ff] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">Statistics, Mathematics and Computer Science</span> that is renowned worldwide and has <span className="text-[#ffd037] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">illustrious alumni</span> scattered all around the world in the best places of both academia and industry. At Kolkata headquarters, the students, organize our annual techno-cultural-sports festival <span className="text-[#e0ff43] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">Integration</span> every year.
-                </p>
-            </div>
-        </div>
-        <div className="bg-[#15f7ff2d] bg-cover bg-left-top h-auto max-w-screen pt-4" >
-            <div className="md:p-2">
-                <div className=" whitespace-pre-line font-bold text-4xl md:text-6xl px-2">
-                    <p className='text-[#3E4154] md:pb-2 text-center'>Contact Us</p>
-                </div>
-                <p className='text-xl p-2 pb-6 font-light md:text-2xl'>
-                    <p className='text-4xl text-center pb-2'>Mail Us Here!</p>
-                    <p className="text-[#4e9aff] flex flex-col gap-1 text-center">
-                        <a href="mailto:mtrp@integrationfest.in" className='font-medium underline underline-offset-[0.4rem] hover:no-underline'>mtrp@integrationfest.in</a>
-                        <a href="mailto:contact@mtrp.integrationfest.in" className='font-medium underline underline-offset-[0.4rem] hover:no-underline'>contact@mtrp.integrationfest.in</a>
-                    </p>
+                <p className='text-xl p-2 md:text-2xl text-white text-center leading-8 mx-[10%]'><a href="https://en.wikipedia.org/wiki/Indian_Statistical_Institute" className='text-black font-bold'>Indian Statistical Institute (ISI) </a>is an<span className="text-[#e0ff43] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]"> Institute of National Importance</span> recognized by an Act of of Parliament of India. ISI is a center for excellence in <span className="text-[#32e4ff] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">Statistics, Mathematics and Computer Science</span> that is renowned worldwide and has <span className="text-[#ffd037] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">illustrious alumni</span> scattered all around the world in the best places of both academia and industry. At Kolkata headquarters, the students, organize our annual techno-cultural-sports festival <span className="text-[#e0ff43] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">Integration</span> every year. */}
+                The programme consists of a written examination and a camp. The competition will be held in two categories, one for students studying in or below X (Junior Category) standard and the other for classes XI and XII (Senior Category). Moreover, this time the examination is being held in both online and offline mode in order to extend the availability of this unique experience to the students for whom it will be difficult to report to the designated centres for an offline examination.
+
+Students from each category are selected for the math camp based on their performance in the written test. The camp consists of interactive sessions with mathematicians, ISI faculties and scholars from other universities, along with a few exercises. Based on the performance in the camp, the top few students from each category are rewarded.
                 </p>
             </div>
         </div>
