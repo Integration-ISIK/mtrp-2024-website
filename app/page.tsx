@@ -135,7 +135,7 @@ export default function Home() {
                             <p className='text-center md:text-2xl'>Srinivas Bhogle</p>
                         </div> */}
                     </div>
-                    <p className='text-end text-sm md:text-[1rem] text-red-500 p-2 md:p-4'>*Speakers are subjective to availability.</p>
+                    <p className='text-end text-sm md:text-[1rem] text-red-500 p-2 md:p-4'>*Speakers are subject to availability.</p>
                 </div>
             </div>
         </div>
