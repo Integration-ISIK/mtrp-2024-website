@@ -24,11 +24,8 @@ export default function Home() {
                 The students and research scholars of the <div className="pt-2">
                     <img src="/img/isi.jpeg" className="mx-auto w-full max-w-[30rem] md:max-w-[40rem] pb-4" alt="" />
                     <a href="https://www.isical.ac.in" className='text-[#43ffaa] font-medium underline underline-offset-[0.4rem] hover:no-underline'>Indian Statistical Institute, Kolkata,</a>
-                </div> organize the <span>
-                    <span  className="text-[#e0ff43] underline underline-offset-[0.4rem] decoration-wavy decoration-[#1bbeff] font-bold">Mathematics </span>
-                    <span  className="text-[#ffd037] underline underline-offset-[0.4rem] decoration-wavy decoration-[#b54230] font-bold">Talent </span> 
-                    <span  className="text-[#42ff64] underline underline-offset-[0.4rem] decoration-wavy decoration-[#ff7b29] font-bold">Reward </span> 
-                    <span  className="text-[#ff16b9] underline underline-offset-[0.4rem] decoration-wavy decoration-[#01ff5a] font-bold">Programme (MTRP)</span>
+                </div> organize the <span className='font-bold text-black'>
+                    Mathematics Talent Reward Programme (MTRP)
                 </span> every year as part of its annual fest, Integration. 
                 The <span className="text-[#acff30] underline underline-offset-[0.4rem] font-bold decoration-wavy decoration-[#bdff09]">vision</span> behind this initiative is 
                 to <span className="text-[#ffd037] underline underline-offset-[0.4rem] font-bold decoration-wavy decoration-[#b54230]">increase interest and create awareness</span> about <span  className="text-[#8239ff] underline underline-offset-[0.4rem] font-bold decoration-wavy decoration-[#b54230]">math</span> among school students. One of the major aims of this programme is 
