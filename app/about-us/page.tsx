@@ -21,19 +21,19 @@ export default function Home() {
                     <p className='text-[#F9DEB5] text-center'>About Us</p>
                 </div>
                 <p className="text-xl pt-2 pb-10 md:text-2xl text-white text-center leading-8 mx-[10%]">
-                The students and research scholars of the <div className="pt-2">
+                The students and research scholars of the <div className="pt-6 pb-6">
                     <img src="/img/isi.jpeg" className="mx-auto w-full max-w-[30rem] md:max-w-[40rem] pb-4" alt="" />
-                    <a href="https://www.isical.ac.in" className='text-[#43ffaa] font-medium underline underline-offset-[0.4rem] hover:no-underline'>Indian Statistical Institute, Kolkata,</a>
+                    <a href="https://www.isical.ac.in" className='text-[#43ffaa] font-medium underline underline-offset-[4px] hover:no-underline'>Indian Statistical Institute, Kolkata,</a>
                 </div> organize the <span className='text-black font-bold'>
                     Mathematics Talent Reward Programme (MTRP)
                 </span> every year as part of its annual fest, Integration. 
-                The <span className="text-[#e0ff43] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">vision</span> behind this initiative is 
-                to <span className="text-[#ffd037] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">increase interest and create awareness</span> about <span  className="text-[#32e4ff] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">math</span> among school students. One of the major aims of this programme is 
-                to <span className="text-[#e0ff43] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">identify and reward talent</span> at
+                The <span className="text-[#e0ff43] font-bold decoration-[#fd6114]">vision</span> behind this initiative is 
+                to <span className="text-[#ffd037] font-bold decoration-[#fd6114]">increase interest and create awareness</span> about <span  className="text-[#32e4ff] font-bold decoration-[#fd6114]">math</span> among school students. One of the major aims of this programme is 
+                to <span className="text-[#e0ff43] font-bold decoration-[#fd6114]">identify and reward talent</span> at
                 a young age. Additionally, it provides students with an opportunity to assess themselves in 
-                comparison to their peers nationwide and offers a chance to <span className="text-[#32e4ff] underline underline-offset-[0.4rem] decoration-[#fd6114] font-bold">interact with celebrated mathematicians</span> and scientists.</p>
+                comparison to their peers nationwide and offers a chance to <span className="text-[#32e4ff] decoration-[#fd6114] font-bold">interact with celebrated mathematicians</span> and scientists.</p>
                 <div className="pt-2 mx-[10%]"><img src="/img/dinosaur.jpeg" className="mx-auto w-full max-w-[30rem] md:max-w-[40rem] pb-4" alt="" /></div>
-                <p className='text-xl p-2 md:text-2xl text-white text-center leading-8 mx-[10%]'><a href="https://en.wikipedia.org/wiki/Indian_Statistical_Institute" className='text-black font-bold'>Indian Statistical Institute (ISI) </a>is an<span className="text-[#e0ff43] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]"> Institute of National Importance</span> recognized by an Act of of Parliament of India. ISI is a center for excellence in <span className="text-[#32e4ff] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">Statistics, Mathematics and Computer Science</span> that is renowned worldwide and has <span className="text-[#ffd037] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">illustrious alumni</span> scattered all around the world in the best places of both academia and industry. At Kolkata headquarters, the students, organize our annual techno-cultural-sports festival <span className="text-[#e0ff43] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">Integration</span> every year.
+                <p className='text-xl p-2 md:text-2xl text-white text-center leading-8 mx-[10%]'><a href="https://en.wikipedia.org/wiki/Indian_Statistical_Institute" className='text-black font-bold'>Indian Statistical Institute (ISI) </a>is an<span className="text-[#e0ff43] font-bold decoration-[#fd6114]"> Institute of National Importance</span> recognized by an Act of of Parliament of India. ISI is a center for excellence in <span className="text-[#32e4ff] font-bold decoration-[#fd6114]">Statistics, Mathematics and Computer Science</span> that is renowned worldwide and has <span className="text-[#ffd037] font-bold decoration-[#fd6114]">illustrious alumni</span> scattered all around the world in the best places of both academia and industry. At Kolkata headquarters, the students, organize our annual techno-cultural-sports festival <span className="text-[#e0ff43] font-bold decoration-[#fd6114]">Integration</span> every year.
                 </p>
             </div>
         </div>
@@ -45,8 +45,8 @@ export default function Home() {
                 <p className='text-xl p-2 pb-6 font-light md:text-2xl'>
                     <p className='text-4xl text-center pb-2'>Mail Us Here!</p>
                     <p className="text-[#4e9aff] flex flex-col gap-1 text-center">
-                        <a href="mailto:mtrp@integrationfest.in" className='font-medium underline underline-offset-[0.4rem] hover:no-underline'>mtrp@integrationfest.in</a>
-                        <a href="mailto:contact@mtrp.integrationfest.in" className='font-medium underline underline-offset-[0.4rem] hover:no-underline'>contact@mtrp.integrationfest.in</a>
+                        <a href="mailto:mtrp@integrationfest.in" className='font-medium hover:no-underline'>mtrp@integrationfest.in</a>
+                        <a href="mailto:contact@mtrp.integrationfest.in" className='font-medium hover:no-underline'>contact@mtrp.integrationfest.in</a>
                     </p>
                 </p>
             </div>
