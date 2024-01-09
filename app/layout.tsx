@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-    <body className="{inter.className} relative">
+    <body className="relative">
         {children}
       </body>
     </html>
