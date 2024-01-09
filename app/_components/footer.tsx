@@ -41,30 +41,30 @@ export default function Footer() {
           </div>
           <div className="justify-end">
             <img src="/img/integration_2024.png" className="w-[15rem] md:w-[20rem] ml-[-15px] md:ml-[-40px] md:mt-[-40px]" alt="Integration Logo" />
-            <a href="" className="hidden md:block text-sm md:w-auto pl-5">Know More About Integration</a>
-            <a href="" className="block md:hidden text-sm md:w-auto pt-2 pl-[2rem]">Know More</a>
+            <a href="" className="hidden md:block text-sm md:w-auto text-center mr-[20%]">Know More About Integration</a>
+            <a href="" className="block md:hidden text-sm md:w-auto pt-2 text-center mr-[10%] ">Know More</a>
 
           </div>
         </div>
       </div>
         
-      <div className="hidden md:block max-h-2 w-full h-auto md:min-h-[14rem] ">
+      <div className="hidden md:block max-h-2 w-full h-auto md:min-h-[16rem] ">
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className=" flex px-20 justify-center">
             <div className='sm:mx-8 md:flex md:flex-col md:flex-wrap text-center'>
               <p className='font-bold text-2xl text-red-500 pb-2'>Sections</p>
               <div className="flex flex-row">
                 <ul className='mr-8'>
-                  <li><a href="">Home Page</a></li>
-                  <li><a href="">About Us</a></li>
+                  <li><a href="/">Home Page</a></li>
+                  <li><a href="/about-us">About Us</a></li>
                   <li><a href="">Program Itinerary</a></li>
-                  <li><a href="">Winter Camp</a></li>
-                  <li><a href="">Registration</a></li>
+                  <li><a href="/camp">Winter Camp</a></li>
+                  <li><a href="/">Registration</a></li>
                 </ul>
                 <div>
                 <div className="spacer"></div>
                 <ul>
-                  <li><a href="">Book</a></li>
+                  <li><a href="">Gallery</a></li>
                   <li><a href="">Merchandise</a></li>
                   <li><a href="">Resources</a></li>
                   <li><a href="">Contact Us</a></li>

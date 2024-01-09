@@ -180,7 +180,7 @@ export default function Home() {
                     </div>
                     <div className='flex flex-col items-center m-4'>
                         <img src="/img/past_speakers/prof_soumendu_sundar_mukherjee.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
-                        <p className='text-center md:text-2xl'>Soumendu Sundar Mukherjee</p>
+                        <p className='text-center md:text-2xl'>Soumendu Mukherjee</p>
                     </div>
                 </div>
                 <p className='bg-gradient-to-r from-[#f9deb57f] via-[#c68d38c2] to-[#f9deb5a2] text-center text-2xl md:text-3xl p-2 md:p-4 text-[#ff3838] font-bold '>Alumni</p>

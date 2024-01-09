@@ -26,22 +26,22 @@ export default function Nav(){
           <div className="hidden w-full items-center justify-between md:order-1 md:flex md:w-auto" id="navbar-sticky">
             <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0 rtl:space-x-reverse dark:border-gray-700">
               <li>
-                <a href="#" className="block rounded bg-blue-700 px-2 py-2 text-[#46ffce] md:bg-transparent md:p-0" aria-current="page">Home</a>
+                <a href="/" className="block rounded bg-blue-700 px-2 py-2 text-[#46ffce] md:bg-transparent md:p-0" aria-current="page">Home</a>
               </li>
               <li>
-                <a href="#" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">About Us</a>
+                <a href="/about-us" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">About Us</a>
               </li>
               <li>
-                <a href="#" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">Winter Camp</a>
+                <a href="/camp" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">Winter Camp</a>
               </li>
               <li>
-                <a href="#" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">Book</a>
+                <a href="/gallery" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">Gallery</a>
               </li>
               <li>
-                <a href="#" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">Program</a>
+                <a href="/program" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">Program</a>
               </li>
               <li>
-                <a href="#" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">Our Team</a>
+                <a href="/team" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">Our Team</a>
               </li>
             </ul>
           </div>
