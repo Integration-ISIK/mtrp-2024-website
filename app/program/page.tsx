@@ -15,29 +15,35 @@ export default function Home() {
                 <img src="/img/mtrp_ico_white_withtext.png" className="w-[13rem] md:w-[25rem]" alt="" />
             </div>
         </div>
-        <div className="flex-grow w-full bg-[#7F8193] bg-cover bg-left-top h-auto max-w-screen pt-4" >
+        <div className="bg-[#15f7ff2d] bg-cover bg-left-top h-auto max-w-screen pt-4" >
             <div className="md:p-2">
-                <div className=" whitespace-pre-line font-bold text-4xl md:text-6xl  px-2">
-                    <p className='text-[#F9DEB5] text-center'>Program</p>
+                <div className=" whitespace-pre-line font-bold text-4xl md:text-6xl px-2">
+                    <p className='text-[#3E4154] md:pb-2 text-center'>Program</p>
                 </div>
-                <p className="text-xl pt-4 pb-10 md:text-2xl text-white text-center leading-8 mx-[10%]">
-                {/* The students and research scholars of the <div className="pt-2">
-                    <img src="/img/isi.jpeg" className="mx-auto w-full max-w-[30rem] md:max-w-[40rem] pb-4" alt="" />
-                    <a href="https://www.isical.ac.in" className='text-[#43ffaa] font-medium underline underline-offset-[0.4rem] hover:no-underline'>Indian Statistical Institute, Kolkata,</a>
-                </div> organize the <span className='text-black font-bold'>
-                    Mathematics Talent Reward Programme (MTRP)
-                </span> every year as part of its annual fest, Integration. 
-                The <span className="text-[#e0ff43] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">vision</span> behind this initiative is 
-                to <span className="text-[#ffd037] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">increase interest and create awareness</span> about <span  className="text-[#32e4ff] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">math</span> among school students. One of the major aims of this programme is 
-                to <span className="text-[#e0ff43] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">identify and reward talent</span> at
-                a young age. Additionally, it provides students with an opportunity to assess themselves in 
-                comparison to their peers nationwide and offers a chance to <span className="text-[#32e4ff] underline underline-offset-[0.4rem] decoration-[#fd6114] font-bold">interact with celebrated mathematicians</span> and scientists.</p>
-                <div className="pt-2 mx-[10%]"><img src="/img/dinosaur.jpeg" className="mx-auto w-full max-w-[30rem] md:max-w-[40rem] pb-4" alt="" /></div>
-                <p className='text-xl p-2 md:text-2xl text-white text-center leading-8 mx-[10%]'><a href="https://en.wikipedia.org/wiki/Indian_Statistical_Institute" className='text-black font-bold'>Indian Statistical Institute (ISI) </a>is an<span className="text-[#e0ff43] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]"> Institute of National Importance</span> recognized by an Act of of Parliament of India. ISI is a center for excellence in <span className="text-[#32e4ff] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">Statistics, Mathematics and Computer Science</span> that is renowned worldwide and has <span className="text-[#ffd037] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">illustrious alumni</span> scattered all around the world in the best places of both academia and industry. At Kolkata headquarters, the students, organize our annual techno-cultural-sports festival <span className="text-[#e0ff43] underline underline-offset-[0.4rem] font-bold decoration-[#fd6114]">Integration</span> every year. */}
+                <p className='text-xl pt-2 pb-10 md:text-2xl text-black leading-8 mx-[10%] text-center'>
                 The programme consists of a written examination and a camp. The competition will be held in two categories, one for students studying in or below X (Junior Category) standard and the other for classes XI and XII (Senior Category). Moreover, this time the examination is being held in both online and offline mode in order to extend the availability of this unique experience to the students for whom it will be difficult to report to the designated centres for an offline examination.
-
-Students from each category are selected for the math camp based on their performance in the written test. The camp consists of interactive sessions with mathematicians, ISI faculties and scholars from other universities, along with a few exercises. Based on the performance in the camp, the top few students from each category are rewarded.
                 </p>
+                <p className='text-xl pt-2 pb-10 md:text-2xl text-black text-center leading-8 mx-[10%]'>
+                Students from each category are selected for the math camp based on their performance in the written test. The camp consists of interactive sessions with mathematicians, ISI faculties and scholars from other universities, along with a few exercises. Based on the performance in the camp, the top few students from each category are rewarded.
+                </p>
+                <div className='flex flex-row flex-wrap justify-center gap-4'>
+                    <div className='max-w-[90%] md:max-w-[45%] bg-[#37deff] rounded-[4rem]'>
+                        <div className=" whitespace-pre-line font-bold text-3xl md:text-4xl px-2 pt-2">
+                            <p className='text-[#e6ff42] md:pb-2 text-center'>Level 1</p>
+                        </div>
+                        <p className='text-xl pt-2 pb-10 md:text-xl text-[#ff3535] leading-8 mx-[10%] text-center'>
+                        A written examination is held in various cities in India, specifically, Kolkata, Durgapur, Siliguri separately for the two categories. The corresponding papers consist of two sections. Section I has objective problems (MCQ and/or integer-type) and Section II has subjective problems. The applicants are given two and half hours to solve the paper. Based on their composite scores in the objective and subjective sections, students securing marks above a certain cut-off qualify for the MTRP Camp. The cut-offs are not predetermined and are separate for the Junior and the Senior Category students as well as for the online and offline candidates. The list of selected candidates will be uploaded in the MTRP website and the candidates will also be individually informed.
+                        </p>
+                    </div>
+                    <div className='max-w-[90%] md:max-w-[45%] bg-[#37deff] rounded-[4rem]'>
+                        <div className=" whitespace-pre-line font-bold text-3xl md:text-4xl px-2 pt-2">
+                            <p className='text-[#e6ff42] md:pb-2 text-center'>Level 2</p>
+                        </div>
+                        <p className='text-xl pt-2 pb-10 md:text-xl text-[#ff3535] leading-8 mx-[10%] text-center'>
+                        The selected candidates are required to attend a three day camp. This camp features lectures from mathematicians, ISI faculties, renowned scholars from other universities, and other experts from various fields of Mathematics and Statistics. These lectures are based on interesting topics related to mathematics, thereby providing enthusiasts with lots of food for thought. Throughout the camp, quizzes are held periodically to judge the skills and problem-solving potential of the students. Based on their performance in the camp, the top few students are rewarded (separate for online and offline candidates).
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         </main>
