@@ -58,7 +58,7 @@ export default function Footer() {
                   <li><a href="/">Home Page</a></li>
                   <li><a href="/about-us">About Us</a></li>
                   <li><a href="">Program Itinerary</a></li>
-                  <li><a href="/camp">Winter Camp</a></li>
+                  <li><a href="/contact">Contact Us</a></li>
                   <li><a href="/">Registration</a></li>
                 </ul>
                 <div>
