@@ -37,20 +37,6 @@ export default function Home() {
                 </p>
             </div>
         </div>
-        <div className="bg-[#15f7ff2d] bg-cover bg-left-top h-auto max-w-screen pt-4" >
-            <div className="md:p-2">
-                <div className=" whitespace-pre-line font-bold text-4xl md:text-6xl px-2">
-                    <p className='text-[#3E4154] md:pb-2 text-center'>Contact Us</p>
-                </div>
-                <p className='text-xl p-2 pb-6 font-light md:text-2xl'>
-                    <p className='text-4xl text-center pb-2'>Mail Us Here!</p>
-                    <p className="text-[#4e9aff] flex flex-col gap-1 text-center">
-                        <a href="mailto:mtrp@integrationfest.in" className='font-medium hover:no-underline'>mtrp@integrationfest.in</a>
-                        <a href="mailto:contact@mtrp.integrationfest.in" className='font-medium hover:no-underline'>contact@mtrp.integrationfest.in</a>
-                    </p>
-                </p>
-            </div>
-        </div>
         </main>
         <Footer></Footer>
         
