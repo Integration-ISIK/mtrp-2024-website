@@ -4,7 +4,7 @@ import Footer from '../_components/footer';
 import { MouseEventHandler } from 'react';
 
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className='flex flex-col w-full h-auto bg-[#EBEEF4]'>
         <Header></Header>
@@ -30,18 +30,18 @@ export default function Home() {
                 <p className='text-xl p-2 pb-6 font-light md:text-2xl overflow-hidden'>
                     <p className='text-4xl text-center pb-2'>Talk To Us <span className="italic">directly</span>!</p>
                     <p className="text-[#4e9aff] flex flex-col gap-1 text-center pb-8">
-                        <p className='text-black font-bold text-2xl text-center pb-2'>Drohan Chakraborty</p>
-                        <a href="tel:+916291939639" className='font-medium hover:no-underline'>+916291939639</a>
-                        <a href="mailto:drohan.chakraborty@people.integrationfest.in" className='md:font-medium max-w-full hover:no-underline'>drohan.chakraborty@people.integrationfest.in</a>
-                    </p>
-                    <p className="text-[#4e9aff] flex flex-col gap-1 text-center pb-8">
                         <p className='text-black font-bold text-2xl text-center pb-2'>Soupayan Dasgupta</p>
                         <a href="tel:+918617782484" className='font-medium hover:no-underline'>+918617782484</a>
-                        <a href="mailto:soupayan.das.gupta@people.integrationfest.in" className='md:font-medium max-w-full text-wrap hover:no-underline'>soupayan.das.gupta@people.integrationfest.in</a>
+                        <a href="mailto:soupayan.das.gupta@people.integrationfest.in" className='md:font-medium text-lg max-w-full text-wrap hover:no-underline'>soupayan.das.gupta@people.integrationfest.in</a>
+                    </p>
+                    <p className="text-[#4e9aff] flex flex-col gap-1 text-center pb-8">
+                        <p className='text-black font-bold text-2xl text-center pb-2'>Drohan Chakraborty</p>
+                        <a href="tel:+916291939639" className='font-medium hover:no-underline'>+916291939639</a>
+                        <a href="mailto:drohan.chakraborty@people.integrationfest.in" className='md:font-medium text-lg max-w-full hover:no-underline'>drohan.chakraborty@people.integrationfest.in</a>
                     </p>
                     <p className="text-[#4e9aff] flex flex-col gap-1 text-center">
                         <p className='text-black font-bold text-2xl text-center pb-2'>Saikat Sengupta</p>
-                        <a href="mailto:saikat.sengupta@people.integrationfest.in" className='md:font-medium max-w-full text-wrap hover:no-underline'>saikat.sengupta@people.integrationfest.in</a>
+                        <a href="mailto:saikat.sengupta@people.integrationfest.in" className='md:font-medium text-lg max-w-full text-wrap hover:no-underline'>saikat.sengupta@people.integrationfest.in</a>
                     </p>
                 </p>
             </div>

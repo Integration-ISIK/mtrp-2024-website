@@ -1,5 +1,5 @@
 'use client';
-import React from 'react';
+import 'react';
 import 'flowbite';
 import {  mtrp_ico, mtrp_jpg, mtrp_white } from './declarations';
 import { MouseEventHandler } from 'react';

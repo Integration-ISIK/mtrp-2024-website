@@ -55,33 +55,23 @@ export default function Footer() {
               <p className='font-bold text-2xl text-red-500 pb-2'>Sections</p>
               <div className="flex flex-row">
                 <ul className='mr-8'>
-                  <li><a href="/">Home Page</a></li>
+                  <li><a href="/home">Home Page</a></li>
                   <li><a href="/about-us">About Us</a></li>
-                  <li><a href="">Program Itinerary</a></li>
+                  <li><a href="/program">Program Itinerary</a></li>
                   <li><a href="/contact">Contact Us</a></li>
-                  <li><a href="/">Registration</a></li>
+                  <li><a href="/home">Registration</a></li>
                 </ul>
                 <div>
                 <div className="spacer"></div>
                 <ul>
-                  <li><a href="">Gallery</a></li>
+                  <li><a href="/gallery">Gallery</a></li>
                   <li><a href="">Merchandise</a></li>
                   <li><a href="">Resources</a></li>
-                  <li><a href="">Contact Us</a></li>
-                  <li><a href="">Our Team</a></li>
+                  <li><a href="/contact">Contact Us</a></li>
+                  <li><a href="/team">Our Team</a></li>
                 </ul>
               </div>
             </div>
-            </div>
-            <div className="sm:mx-8 flex flex-col">
-              <p className='font-bold text-2xl text-red-500 pb-2'>Previous Year Papers</p>
-              <ul className="text-center">
-                <li><a href="">2023 Question Paper</a></li>
-                <li><a href="">2022 Question Paper</a></li>
-                <li><a href="">2021 Question Paper</a></li>
-                <li><a href="">2020 Question Paper</a></li>
-                <li><a href="">2019 Question Paper</a></li>
-              </ul>
             </div>
         
           </div>
