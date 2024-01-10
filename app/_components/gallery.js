@@ -52,7 +52,7 @@ const Gallery = () => {
         title: "",
     },
     {
-        imageUrl: "/MTRP Pics/09-junior+senior.jpg",
+        imageUrl: "/MTRP Pics/09-juniorsenior.jpg",
         type: "Award Ceremony",
         title: "Juniors and Seniors",
     },
