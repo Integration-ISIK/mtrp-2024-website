@@ -16,7 +16,7 @@ export default function Home() {
         </div>
         <div className="flex-grow w-full">
         <div className="opacity-20 blur-sm"></div>
-        <div className="bg-[#15f7ff2d] bg-cover bg-left-top h-auto max-w-screen pt-8">
+        <div className="bg-[#15f7ff2d] bg-cover bg-left-top h-auto max-w-screen pt-8 pb-4">
             <div className=" whitespace-pre-line font-bold text-4xl md:text-6xl px-2 mb-[-2rem]">
                 <p className='text-[#0D1F35] text-center'>Gallery</p>
             </div>
