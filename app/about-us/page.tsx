@@ -1,10 +1,9 @@
 'use client';
 import Header from '../_components/header';
 import Footer from '../_components/footer';
-import { MouseEventHandler } from 'react';
 
 
-export default function Home() {
+export default function AboutUs() {
   return (
     <div className='flex flex-col w-full h-auto bg-[#EBEEF4]'>
         <Header></Header>
