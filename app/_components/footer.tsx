@@ -5,8 +5,9 @@ export default function Footer() {
       <div className="mx-auto w-full p-4 h-100 py-6 lg:py-8">
         <div className='flex flex-row flex-grow justify-between'>
           <div className='flex flex-col md:flex-row '>
-            <p className="text-xl md:text-3xl mx-4 pt-6 md:pb-auto md:pt-auto text-center md:text-start text-[#E2E3EE]">Contact Us</p>
-            <div className="flex mt-4 md:pt-6 sm:justify-center sm:mt-0">
+            <p className="text-xl md:text-4xl mx-4 pt-6 md:pb-auto md:pt-auto text-center md:text-start text-[#E2E3EE]">Contact Us</p>
+            {/* This section defines the svg icons for socials */}
+            {/* <div className="flex mt-4 md:pt-6 sm:justify-center sm:mt-0">
               <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                   <svg className="pl-0 md:pl-4 w-4 h-4 md:w-8 md:h-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                         <path fillRule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clipRule="evenodd"/>
@@ -37,7 +38,12 @@ export default function Footer() {
               </svg>
               </a>
               
-            </div>
+            </div> */}
+            
+            <p className="text-[#4e9aff] flex flex-col text-center self-center">
+              <a href="mailto:mtrp@integrationfest.in" className='font-medium text-xs md:text-base hover:no-underline'>mtrp@integrationfest.in</a>
+              <a href="mailto:contact@mtrp.integrationfest.in" className='font-medium text-xs md:text-base hover:no-underline'>contact@mtrp.integrationfest.in</a>
+            </p>
           </div>
           <div className="justify-end">
             <img src="/img/integration_2024.png" className="w-[15rem] md:w-[20rem] ml-[-15px] md:ml-[-40px] md:mt-[-40px]" alt="Integration Logo" />

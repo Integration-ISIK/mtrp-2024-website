@@ -111,7 +111,7 @@ export default function Home() {
         </div>
         <div className='speaker flex md:h-auto'>
             <div className="h-auto  w-full flex flex-col bg-gradient-to-r from-[#f9deb57f] via-[#c68d38c2] to-[#f9deb5a2]">
-                <p className='text-center text-2xl md:text-4xl p-2 md:p-4 text-[#ff3838] font-bold '>Speakers for the Spring Camp</p>
+                <p className='text-center text-2xl md:text-4xl p-2 md:p-4 text-[#0D1F35] font-bold '>Speakers for the Spring Camp</p>
                 <div className='bg-gradient-to-b from-[#00000079] to-[#F9DEB5]'>
                     <div className="flex-grow flex flex-row flex-wrap justify-center font-bold">
                         <div className='flex flex-col p-5'>
@@ -141,8 +141,8 @@ export default function Home() {
         </div>
         <div className='speaker flex'>
             <div className="w-full flex flex-col bg-gradient-to-r from-[#f9deb57f] via-[#c68d38c2] to-[#f9deb5a2]">
-                <p className='text-center text-2xl md:text-4xl p-2 md:p-4 text-[#ff3838] font-bold '>Past Speakers</p>
-                <p className='text-center text-2xl md:text-3xl p-2 md:p-4 text-[#ff3838] font-bold '>Professors</p>
+                <p className='text-center text-2xl md:text-4xl p-2 md:p-4 text-[#0D1F35] font-bold '>Past Speakers</p>
+                <p className='text-center text-2xl md:text-3xl p-2 md:p-4 text-[#0D1F35] font-bold '>Professors</p>
                 <div className="bg-gradient-to-b from-[#00000079] to-[#F9DEB5] flex-grow flex text-[#000000] flex-row flex-wrap md:h-auto justify-center font-bold">
                     <div className='flex flex-col items-center m-4'>
                         <img src="/img/past_speakers/Prof_Saurabh_Ghosh.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
@@ -183,7 +183,7 @@ export default function Home() {
                         <p className='text-center md:text-2xl'>Soumendu Mukherjee</p>
                     </div>
                 </div>
-                <p className='bg-gradient-to-r from-[#f9deb57f] via-[#c68d38c2] to-[#f9deb5a2] text-center text-2xl md:text-3xl p-2 md:p-4 text-[#ff3838] font-bold '>Alumni</p>
+                <p className='bg-gradient-to-r from-[#f9deb57f] via-[#c68d38c2] to-[#f9deb5a2] text-center text-2xl md:text-3xl p-2 md:p-4 text-[#0D1F35] font-bold '>Alumni</p>
                 <div className="bg-gradient-to-b from-[#00000079] to-[#F9DEB5] flex-grow flex text-[#000000] flex-row flex-wrap md:h-[22rem] justify-center font-bold">
                     <div className='flex flex-col m-4'>
                         <img src="/img/past_speakers/Arpan_Sadhukhan.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
