@@ -24,54 +24,54 @@ export default function Home() {
                 <p className='text-center text-2xl md:text-4xl p-2 md:p-4 text-[#0D1F35] font-bold '>Our Team</p>
                 <div className='bg-gradient-to-b from-[#00000079] to-[#F9DEB5]'>
                     <div className="flex-grow flex flex-row flex-wrap justify-center font-bold">
-                        <div className='flex flex-col items-center p-5 overflow-hidden justify-end'>
+                        <div className='flex flex-col items-center p-3 overflow-hidden justify-end'>
                             <img src="/teampics/saikat.png" className="w-[8rem] md:w-[14rem] md:p-4" alt="" />
                             <p className='text-center md:text-2xl text-lg'>Saikat Sengupta</p>
                             <p className='text-center md:text-xl'>Head, Operations</p>
                         </div>
-                        <div className='flex flex-col items-center p-5 overflow-hidden justify-end'>
+                        <div className='flex flex-col items-center p-3 overflow-hidden justify-end'>
                             <img src="/teampics/archisman.png" className="w-[8rem] md:w-[14rem] md:p-4" alt="" />
                             <p className='text-center md:text-2xl text-lg'>Archisman Mukherjee</p>
                             <p className='text-center md:text-xl'>Lead, MTRP Problem Primer</p>
 
                         </div>
-                        <div className='flex flex-col items-center p-5 overflow-hidden justify-end'>
+                        <div className='flex flex-col items-center p-3 overflow-hidden justify-end'>
                             <img src="/teampics/soupayan.png" className="w-[8rem] md:w-[14rem] md:p-4" alt="" />
                             <p className='text-center md:text-2xl text-lg'>Soupayan Dasgupta</p>
                             <p className='text-center md:text-xl'>Lead, Localisation Team</p>
 
                         </div>
-                        <div className='flex flex-col items-center p-5 overflow-hidden justify-end'>
+                        <div className='flex flex-col items-center p-3 overflow-hidden justify-end'>
                             <img src="/teampics/drohan.png" className="w-[8rem] md:w-[14rem] md:p-4" alt="" />
                             <p className='text-center md:text-2xl text-lg'>Drohan Chakraborty</p>
                             <p className='text-center md:text-xl'>Lead, Infrastructure Team</p>
 
                         </div>
-                        <div className='flex flex-col items-center p-5 overflow-hidden justify-end'>
+                        <div className='flex flex-col items-center p-3 overflow-hidden justify-end'>
                             <img src="/teampics/swapnaneel.png" className="w-[8rem] md:w-[14rem] md:p-4" alt="" />
                             <p className='text-center md:text-2xl text-lg'>Swapnaneel Bhattacharya</p>
                             <p className='text-center md:text-xl'>Lead, MTRP Exam Team</p>
 
                         </div>
-                        <div className='flex flex-col items-center p-5 overflow-hidden justify-end'>
+                        <div className='flex flex-col items-center p-3 overflow-hidden justify-end'>
                             <img src="/teampics/aritra.png" className="w-[8rem] md:w-[14rem] md:p-4" alt="" />
                             <p className='text-center md:text-2xl text-lg'>Aritra Ghosh</p>
                             <p className='text-center md:text-xl'>Lead, MTRP Evaluation Team</p>
 
                         </div>
-                        <div className='flex flex-col items-center p-5 overflow-hidden justify-end'>
+                        <div className='flex flex-col items-center p-3 overflow-hidden justify-end'>
                             <img src="/teampics/adityarup.png" className="w-[8rem] md:w-[14rem] md:p-4" alt="" />
                             <p className='text-center md:text-2xl text-lg'>Adityarup Laha</p>
                             <p className='text-center md:text-xl'>Lead, Technical Team</p>
 
                         </div>
-                        <div className='flex flex-col items-center p-5 overflow-hidden justify-end'>
+                        <div className='flex flex-col items-center p-3 overflow-hidden justify-end'>
                             <img src="/teampics/himadri.png" className="w-[8rem] md:w-[14rem] md:p-4" alt="" />
                             <p className='text-center md:text-2xl text-lg'>Himadri Mandal</p>
                             <p className='text-center md:text-xl'>Lead, MTRP Website</p>
 
                         </div>
-                        <div className='flex flex-col items-center p-5 overflow-hidden justify-end'>
+                        <div className='flex flex-col items-center p-3 overflow-hidden justify-end'>
                             <img src="/teampics/srijan.png" className="w-[8rem] md:w-[14rem] md:p-4" alt="" />
                             <p className='text-center md:text-2xl text-lg'>Srijan Saha</p>
                             <p className='text-center md:text-xl'>Lead, Design Team</p>
