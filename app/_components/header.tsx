@@ -14,8 +14,8 @@ export default function Nav(){
     const toggleClass = () => {
       setIsActiveNav(!isActiveNav);
     }
-    debug(isActiveNav);
-    debug(`${isActiveNav ? '' : 'hidden'}`);
+    console.log(isActiveNav);
+    console.log(`${isActiveNav ? '' : 'hidden'}`);
     return (
       <header className="absolute top-0 text-white">
         <nav className="bg-[#122038] fixed w-full z-30 top-0 start-0 border-b border-gray-200">
@@ -30,8 +30,8 @@ export default function Nav(){
                 </svg>
             </button>
           </div>
-          <div className={isActiveNav ? 'w-full' : 'hidden w-full'}>
-            <div className="items-center justify-between md:order-1 md:flex md:w-auto" id="navbar-sticky">
+          {/* <div className="w-full"> */}
+            <div className={`${isActiveNav ? 'block w-full' : 'hidden w-full'} items-center justify-between md:order-1 md:flex md:w-auto`} id="navbar-sticky">
               <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0 rtl:space-x-reverse dark:border-gray-700">
                 <li>
                   <a href="/" className="block rounded bg-blue-700 px-2 py-2 text-[#46ffce] md:bg-transparent md:p-0" aria-current="page">Home</a>
@@ -54,7 +54,7 @@ export default function Nav(){
               </ul>
             </div>
           </div>
-          </div>
+          {/* </div> */}
         </nav>
       </header>
     )
