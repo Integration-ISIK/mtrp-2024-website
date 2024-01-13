@@ -1,6 +1,7 @@
 'use client';
 import Header from '../_components/header';
 import Footer from '../_components/footer';
+import lotus from './../../public/img/isi.jpeg';
 
 
 export default function AboutUs() {
@@ -14,28 +15,38 @@ export default function AboutUs() {
                 <img src="/img/mtrp_ico_white_withtext.png" className="w-[13rem] md:w-[25rem]" alt="" />
             </div>
         </div>
-        <div className="flex-grow w-full bg-[#7F8193] bg-cover bg-left-top h-auto max-w-screen pt-4" >
-            <div className="md:p-2">
-                <div className=" whitespace-pre-line font-bold text-4xl md:text-6xl  px-2">
-                    <p className='text-[#F9DEB5] text-center'>About Us</p>
-                </div>
-                <p className="text-xl pt-2 pb-10 md:text-2xl text-white text-center leading-8 mx-[10%]">
-                The students and research scholars of the <div className="pt-6 pb-6">
-                    <img src="/img/isi.jpeg" className="mx-auto w-full max-w-[30rem] md:max-w-[40rem] pb-4" alt="" />
-                    <a href="https://www.isical.ac.in" className='text-[#43ffaa] font-medium underline underline-offset-[4px] hover:no-underline'>Indian Statistical Institute, Kolkata,</a>
-                </div> organize the <span className='text-black font-bold'>
-                    Mathematics Talent Reward Programme (MTRP)
-                </span> every year as part of its annual fest, Integration. 
-                The <span className="text-[#e0ff43] font-bold decoration-[#fd6114]">vision</span> behind this initiative is 
-                to <span className="text-[#ffd037] font-bold decoration-[#fd6114]">increase interest and create awareness</span> about <span  className="text-[#32e4ff] font-bold decoration-[#fd6114]">math</span> among school students. One of the major aims of this programme is 
-                to <span className="text-[#e0ff43] font-bold decoration-[#fd6114]">identify and reward talent</span> at
-                a young age. Additionally, it provides students with an opportunity to assess themselves in 
-                comparison to their peers nationwide and offers a chance to <span className="text-[#32e4ff] decoration-[#fd6114] font-bold">interact with celebrated mathematicians</span> and scientists.</p>
-                <div className="pt-2 mx-[10%]"><img src="/img/dinosaur.jpeg" className="mx-auto w-full max-w-[30rem] md:max-w-[40rem] pb-4" alt="" /></div>
-                <p className='text-xl p-2 md:text-2xl text-white text-center leading-8 mx-[10%]'><a href="https://en.wikipedia.org/wiki/Indian_Statistical_Institute" className='text-black font-bold'>Indian Statistical Institute (ISI) </a>is an<span className="text-[#e0ff43] font-bold decoration-[#fd6114]"> Institute of National Importance</span> recognized by an Act of of Parliament of India. ISI is a center for excellence in <span className="text-[#32e4ff] font-bold decoration-[#fd6114]">Statistics, Mathematics and Computer Science</span> that is renowned worldwide and has <span className="text-[#ffd037] font-bold decoration-[#fd6114]">illustrious alumni</span> scattered all around the world in the best places of both academia and industry. At Kolkata headquarters, the students, organize our annual techno-cultural-sports festival <span className="text-[#e0ff43] font-bold decoration-[#fd6114]">Integration</span> every year.
-                </p>
+        
+        <div className='flex flex-col xl:flex-row'>
+            <div className='basis-1/4 flex bg-[#397ADB] text-white'>
+                <p className='text-4xl mx-20 my-10 md:text-6xl md:mx-16 md:my-20 xl:my-40'>About Us</p>
+            </div>
+            <div className='basis-3/4 bg-[#C6F0F6] flex justify-center items-center p-10 md:p-20'>
+                <p className='text-2xl md:text-3xl'>The students and research scholars of the <span style={{color:'#397ADB'}}><b>Indian Statistical Institute, Kolkata</b></span>,  organize the <span style={{color:'#EE0000'}}><b>Mathematics Talent Reward Programme</b></span> (MTRP) every year as part of its annual fest, <span style={{color: '#397ADB'}}><i><b>Integration</b></i></span>. The vision behind this initiative is to take mathematics beyond standard textbooks by inspiring innovative and non-routine critical thinking among students.</p>
             </div>
         </div>
+
+        <div className='flex flex-col-reverse xl:flex-row'>
+            <div className='basis-1/2 bg-[#F1AF57] text-black flex justify-center items-center p-10 md:p-20'>
+                <p className='text-2xl md:text-3xl'>One of the major aims of this programme is to identify and <span style={{color:'#EE0000'}}><b>reward</b></span> talent at a young age. Additionally, it provides students with an opportunity to assess themselves in comparison to their peers nationwide and offers a chance to interact with celebrated <span style={{color:'#397ADB'}}> <b>mathematicians and scientists</b> </span>.</p>
+            </div>
+            <div className='basis-1/2'>
+                <img src="img/isi.jpeg" alt="dsfds" />
+            </div>
+        </div>
+
+        <div className='bg-[#C6F0F6] flex justify-center items-center px-16 py-14 text-2xl md:px-32 md:py-28 md:text-3xl'>
+            <p>Indian Statistical Institute (ISI) established in 1931 is recognized as an Institute of National Importance by the 1959 act of the Indian parliament. It grew out of the Statistical Laboratory set up by Shri Prasanta Chandra Mahalanobis.</p>
+        </div>
+
+        <div className='flex flex-col xl:flex-row'>
+        <div className='basis-1/2'>
+                <img src="img/dinosaur.jpeg" alt="dsfds" />
+            </div>
+            <div className='basis-1/2 bg-[#7F8193] text-black flex justify-center items-center p-10 md:p-20'>
+                <p className='text-white text-2xl md:text-3xl'>ISI is a center for excellence in <span style={{ color: '#C6F0F6'}}> <b>Statistics, Mathematics , Computer science and Economics</b></span>  that is renowned worldwide and has <span style={{color: '#E69926'}}> <b>illustrious alumni</b> </span>scattered all around the world in the best places of both academia and industry. At Kolkata headquarters, the students, organize our annual techno-cultural-sports festival Integration every year.</p>
+            </div>
+        </div>
+
         </main>
         <Footer></Footer>
         
