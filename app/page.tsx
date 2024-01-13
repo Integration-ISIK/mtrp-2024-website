@@ -205,6 +205,8 @@ export default function Home() {
                     <div className='flex flex-col m-4'>
                         <img src="/img/past_speakers/aditya_ghosh.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
                         <a href="https://ghoshadi.github.io/"><p className='text-center md:text-2xl'>Aditya Ghosh</p></a>
+                        <p>PhD Student</p>
+                        <p>Stanford University</p>
                     </div>
                 </div>
             </div>
