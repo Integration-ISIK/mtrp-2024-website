@@ -109,7 +109,7 @@ export default function Home() {
                 </p>
             </div>
         </div>
-        <div className='speaker flex md:h-auto'>
+        {/* <div className='speaker flex md:h-auto'>
             <div className="h-auto  w-full flex flex-col bg-gradient-to-r from-[#f9deb57f] via-[#c68d38c2] to-[#f9deb5a2]">
                 <p className='text-center text-2xl md:text-4xl p-2 md:p-4 text-[#0D1F35] font-bold '>Speakers for the Spring Camp</p>
                 <div className='bg-gradient-to-b from-[#00000079] to-[#F9DEB5]'>
@@ -130,15 +130,15 @@ export default function Home() {
                             <img src="/img/speakers/meg_crofroot.png" className="w-[8rem] md:w-[14rem] md:p-4" alt="" />
                             <p className='text-center md:text-2xl'>Meg Crofroot</p>
                         </div>
-                        {/* <div className='flex flex-col p-5'>
+                        <div className='flex flex-col p-5'>
                             <img src="/img/speakers/srinivas_bhogle.png" className="w-[8rem] md:w-[14rem] md:p-4" alt="" />
                             <p className='text-center md:text-2xl'>Srinivas Bhogle</p>
-                        </div> */}
+                        </div> 
                     </div>
                     <p className='text-end text-sm md:text-[1rem] text-red-500 p-2 md:p-4'>*Speakers are subject to availability.</p>
                 </div>
             </div>
-        </div>
+        </div>*/}
         <div className='speaker flex'>
             <div className="w-full flex flex-col bg-gradient-to-r from-[#f9deb57f] via-[#c68d38c2] to-[#f9deb5a2]">
                 <p className='text-center text-2xl md:text-4xl p-2 md:p-4 text-[#0D1F35] font-bold '>Past Speakers</p>
