@@ -197,17 +197,20 @@ export default function Home() {
                     <div className='flex flex-col m-4'>
                         <img src="/img/past_speakers/Arpan_Sadhukhan.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
                         <p className='text-center md:text-2xl'>Arpan Sadhukhan</p>
-                        <p>Ph.D Student,Eindhoven University of Technology</p>
+                        <p>Ph.D Student</p>
+                        <p>Eindhoven University of Technology</p>
                     </div>
                     <div className='flex flex-col m-4'>
                         <img src="/img/past_speakers/Supravat_Sarkar.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
                         <p className='text-center md:text-2xl'>Supravat Sarkar</p>
-                        <p>Ph.D Student, Princeton University</p>
+                        <p>Ph.D Student</p>
+                        <p>Princeton University<</p>
                     </div>
                     <div className='flex flex-col m-4'>
                         <img src="/img/past_speakers/aditya_ghosh.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
                         <p className='text-center md:text-2xl'>Aditya Ghosh</p>
-                        <p>Ph.D Student, Stanford University</p>
+                        <p>Ph.D Student</p>
+                        <p>Stanford University<</p>
                     </div>
                 </div>
             </div>
