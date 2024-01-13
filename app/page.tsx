@@ -177,17 +177,17 @@ export default function Home() {
                 {/* </div>
                 <div className="bg-gradient-to-b from-[#00000079] to-[#F9DEB5] flex-grow flex text-[#000000] flex-row flex-wrap md:h-auto justify-center"> */}
                     <div className='flex flex-col items-center m-4'>
-                        <img src="/img/past_speakers/Prof_arnab_chakraborty.png" className="h-[12rem] md:h-[16rem] md:p-4" alt="" />
+                        <img src="/img/past_speakers/Prof_arnab_chakraborty.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
                         <a href="https://www.isical.ac.in/arnab-chakraborty"><p className='text-center md:text-2xl'>Arnab Chakraborty</p></a>
                         <p>ISI</p>
                     </div>
                     <div className='flex flex-col items-center m-4'>
-                        <img src="/img/past_speakers/prof_ritabrata_munshi.png" className="h-[12rem] md:h-[16rem] md:p-4" alt="" />
+                        <img src="/img/past_speakers/prof_ritabrata_munshi.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
                         <a href="https://scholar.google.co.in/citations?user=uM3tVo0AAAAJ&hl=en"><p className='text-center md:text-2xl'>Ritabrata Munshi</p></a>
                         <p>TIFR</p>
                     </div>
                     <div className='flex flex-col items-center m-4'>
-                        <img src="/img/past_speakers/prof_soumendu_sundar_mukherjee.png" className="h-[12rem] md:h-[16rem] md:p-4" alt="" />
+                        <img src="/img/past_speakers/prof_soumendu_sundar_mukherjee.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
                         <a href="https://soumendu041.gitlab.io/"><p className='text-center md:text-2xl'>Soumendu Mukherjee</p></a>
                         <p>ISI</p>
                     </div>
