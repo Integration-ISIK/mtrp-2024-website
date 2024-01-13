@@ -198,7 +198,8 @@ export default function Home() {
                         <img src="/img/past_speakers/Arpan_Sadhukhan.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
                         <a href="https://research.tue.nl/en/persons/arpan-sadhukhan"><p className='text-center md:text-2xl'>Arpan Sadhukhan</p></a>
                         <p className='text-center md:text-l'>PhD Student</p>
-                        <p className='text-center md:text-l'>Eindhoven University of <br> Technology</p>
+                        <p className='text-center md:text-l'>Eindhoven University of</p>
+                        <p className='text-center md:text-l'>Technology</p>
                     </div>
                     <div className='flex flex-col m-4'>
                         <img src="/img/past_speakers/Supravat_Sarkar.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
