@@ -46,7 +46,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="justify-end">
-            <img src="/img/integration_2024.png" alt="Integration Logo" />
+            <img src="/img/integration_2024.png" className="w-[15rem] md:w-[20rem] ml-[-15px] md:ml-[-40px] md:mt-[-40px]" alt="Integration Logo" />
             <a href="" className="hidden md:block text-sm md:w-auto text-center mr-[20%]">Know More About Integration</a>
             <a href="" className="block md:hidden text-sm md:w-auto pt-2 text-center mr-[10%] ">Know More</a>
 
