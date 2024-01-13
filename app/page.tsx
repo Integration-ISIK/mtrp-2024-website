@@ -146,56 +146,68 @@ export default function Home() {
                 <div className="bg-gradient-to-b from-[#00000079] to-[#F9DEB5] flex-grow flex text-[#000000] flex-row flex-wrap md:h-auto justify-center font-bold">
                     <div className='flex flex-col items-center m-4'>
                         <img src="/img/past_speakers/Prof_Saurabh_Ghosh.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
-                        <p className='text-center md:text-2xl'>Saurabh Ghosh</p>
+                        <p href="https://isi.irins.org/profile/111503" className='text-center md:text-2xl'>Saurabh Ghosh</p>
+                        <p>Former Dean, ISI</p>
                     </div>
                     <div className='flex flex-col items-center m-4'>
                         <img src="/img/past_speakers/Prof_Bimal_Roy.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
-                        <p className='text-center md:text-2xl'>Bimal Kumar Roy</p>
+                        <p href="https://isi.irins.org/profile/111435" className='text-center md:text-2xl'>Bimal Kumar Roy</p>
+                        <p>Former Director, ISI</p>
                     </div>
                     <div className='flex flex-col items-center m-4'>
                         <img src="/img/past_speakers/Prof_Gopal_Basak.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
-                        <p className='text-center md:text-2xl'>Gopal K. Basak</p>
+                        <p href="https://isi.irins.org/profile/111458" className='text-center md:text-2xl'>Gopal K. Basak</p>
+                        <p>Dean, ISI</p>
                     </div>
                     <div className='flex flex-col items-center content-center m-4'>
                         <img src="/img/past_speakers/Prof_Pradipta_Bandopadhyay.png" className=" h-[10rem] md:h-[14rem] md:p-4" alt="" />
-                        <p className='text-center md:text-2xl'>Pradipta Bandyopadhyay</p>
+                        <p href="https://isi.irins.org/profile/275474" className='text-center md:text-2xl'>Pradipta Bandyopadhyay</p>
+                        <p>Former Dean, ISI</p>
                     </div>
                     <div className='flex flex-col items-center m-4'>
                         <img src="/img/past_speakers/Prof_Sumitra_Purkayastha.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
-                        <p className='text-center md:text-2xl'>Sumitra Purkayastha</p>
+                        <p href="https://isi.irins.org/profile/275337" className='text-center md:text-2xl'>Sumitra Purkayastha</p>
+                        <p>Associate Dean, ISI</p>
                     </div>
                     <div className='flex flex-col items-center m-4'>
                         <img src="/img/past_speakers/Prof_Alok_Goswami.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
-                        <p className='text-center md:text-2xl'>Alok Goswami</p>
+                        <p href="https://isi.irins.org/profile/111416" className='text-center md:text-2xl'>Alok Goswami</p>
+                        <p>ISI</p>
                     </div>
                 {/* </div>
                 <div className="bg-gradient-to-b from-[#00000079] to-[#F9DEB5] flex-grow flex text-[#000000] flex-row flex-wrap md:h-auto justify-center"> */}
                     <div className='flex flex-col items-center m-4'>
                         <img src="/img/past_speakers/Prof_arnab_chakraborty.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
-                        <p className='text-center md:text-2xl'>Arnab Chakraborty</p>
+                        <p href="https://www.isical.ac.in/arnab-chakraborty" className='text-center md:text-2xl'>Arnab Chakraborty</p>
+                        <p>ISI</p>
                     </div>
                     <div className='flex flex-col items-center m-4'>
                         <img src="/img/past_speakers/prof_ritabrata_munshi.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
-                        <p className='text-center md:text-2xl'>Ritabrata Munshi</p>
+                        <p href="https://scholar.google.co.in/citations?user=uM3tVo0AAAAJ&hl=en" className='text-center md:text-2xl'>Ritabrata Munshi</p>
+                        <p>TIFR</p>
                     </div>
                     <div className='flex flex-col items-center m-4'>
                         <img src="/img/past_speakers/prof_soumendu_sundar_mukherjee.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
-                        <p className='text-center md:text-2xl'>Soumendu Mukherjee</p>
+                        <p href="https://soumendu041.gitlab.io/" className='text-center md:text-2xl'>Soumendu Mukherjee</p>
+                        <p>ISI</p>
                     </div>
                 </div>
                 <p className='bg-gradient-to-r from-[#f9deb57f] via-[#c68d38c2] to-[#f9deb5a2] text-center text-2xl md:text-3xl p-2 md:p-4 text-[#0D1F35] font-bold '>Alumni</p>
                 <div className="bg-gradient-to-b from-[#00000079] to-[#F9DEB5] flex-grow flex text-[#000000] flex-row flex-wrap md:h-[22rem] justify-center font-bold">
                     <div className='flex flex-col m-4'>
                         <img src="/img/past_speakers/Arpan_Sadhukhan.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
-                        <p className='text-center md:text-2xl'>Arpan Sadhukhan</p>
+                        <p href="https://research.tue.nl/en/persons/arpan-sadhukhan" className='text-center md:text-2xl'>Arpan Sadhukhan</p>
+                        <p>Ph.D Student,Eindhoven University of Technology</p>
                     </div>
                     <div className='flex flex-col m-4'>
                         <img src="/img/past_speakers/Supravat_Sarkar.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
-                        <p className='text-center md:text-2xl'>Supravat Sarkar</p>
+                        <p href="https://www.math.princeton.edu/people/supravat-sarkar" className='text-center md:text-2xl'>Supravat Sarkar</p>
+                        <p>Ph.D Student, Princeton University</p>
                     </div>
                     <div className='flex flex-col m-4'>
                         <img src="/img/past_speakers/aditya_ghosh.png" className="h-[10rem] md:h-[14rem] md:p-4" alt="" />
-                        <p className='text-center md:text-2xl'>Aditya Ghosh</p>
+                        <p href="https://ghoshadi.github.io/" className='text-center md:text-2xl'>Aditya Ghosh</p>
+                        <p>Ph.D Student, Stanford University</p>
                     </div>
                 </div>
             </div>
