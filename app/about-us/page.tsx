@@ -1,7 +1,7 @@
 'use client';
 import Header from '../_components/header';
 import Footer from '../_components/footer';
-import lotus from './../../public/img/isi.jpeg';
+import lotus from './../../public/img/isi.webp';
 
 
 export default function AboutUs() {
@@ -10,7 +10,7 @@ export default function AboutUs() {
         <Header></Header>
         
         <main className='flex-grow pt-[4.5rem] md:pt-20'>
-        <div className="relative bg-cover bg-left-top h-auto min-h-64 md:h-[24rem] w-full pt-4 md:pt-0" style={{ backgroundImage: "url('/img/cover.png')" }}>
+        <div className="relative bg-cover bg-left-top h-auto min-h-64 md:h-[24rem] w-full pt-4 md:pt-0" style={{ backgroundImage: "url('/img/cover.webp')" }}>
             <div className='float-right mr-[2%] md:mr-[28%] pt-[2rem]'>
                 <img src="/img/mtrp_ico_white_withtext.png" className="w-[13rem] md:w-[25rem]" alt="" />
             </div>
@@ -30,7 +30,7 @@ export default function AboutUs() {
                 <p className='text-2xl md:text-3xl'>One of the major aims of this programme is to identify and <span style={{color:'#EE0000'}}><b>reward</b></span> talent at a young age. Additionally, it provides students with an opportunity to assess themselves in comparison to their peers nationwide and offers a chance to interact with celebrated <span style={{color:'#397ADB'}}> <b>mathematicians and scientists</b> </span>.</p>
             </div>
             <div className='basis-1/2'>
-                <img src="img/isi.jpeg" alt="dsfds" />
+                <img src="img/isi.webp" alt="On Independence Day" />
             </div>
         </div>
 
@@ -40,10 +40,10 @@ export default function AboutUs() {
 
         <div className='flex flex-col xl:flex-row'>
         <div className='basis-1/2'>
-                <img src="img/dinosaur.jpeg" alt="dsfds" />
+                <img src="img/dinosaur.webp" alt="Geology Unit" />
             </div>
             <div className='basis-1/2 bg-[#7F8193] text-black flex justify-center items-center p-10 md:p-20'>
-                <p className='text-white text-2xl md:text-3xl'>ISI is a center for excellence in <span style={{ color: '#C6F0F6'}}> <b>Statistics, Mathematics , Computer science and Economics</b></span>  that is renowned worldwide and has <span style={{color: '#E69926'}}> <b>illustrious alumni</b> </span>scattered all around the world in the best places of both academia and industry. At Kolkata headquarters, the students, organize our annual techno-cultural-sports festival Integration every year.</p>
+                <p className='text-white text-2xl md:text-3xl'>ISI is a center for excellence in <span style={{ color: '#C6F0F6'}}> <b>Statistics, Mathematics , Computer Science and Economics</b></span>  that is renowned worldwide and has <span style={{color: '#E69926'}}> <b>illustrious alumni</b> </span>scattered all around the world in the best places of both academia and industry. At Kolkata headquarters, the students, organize our annual techno-cultural-sports festival Integration every year.</p>
             </div>
         </div>
 
