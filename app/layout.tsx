@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-    <head><link rel="icon" href="/img/mtrp_ico_white.png" sizes="any" /></head>
+    <head><link rel="icon" href="/img/_white.png" sizes="any" /></head>
     <body className="relative">
         {children}
       </body>
