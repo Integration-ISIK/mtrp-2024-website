@@ -26,7 +26,15 @@ export default function Resources() {
             <p className='text-xl p-2 pb-6 font-light md:text-2xl'>A sneak peek from the topic Base Systems in Number Theory <a href="https://drive.google.com/file/d/1jsMz3Xw3u4SPMN8wMNdp0daf9HWa1XZ2/view" className='text-red-500'>here!</a></p>
           </div>
         </div>
-
+        <div className='flex flex-row flex-wrap justify-center gap-4'>
+            <div className='max-w-[90%] md:max-w-[45%] bg-[#0D1F35] rounded-[4rem]'>
+                <div className=" whitespace-pre-line font-bold text-3xl md:text-4xl px-2 pt-4">
+                    <p className='text-[#F1AF57] md:pb-0 text-center'>Level 1</p>
+                </div>
+                <p className='pt-2 pb-10 md:text-xl text-[#ffffff] leading-8 mx-[4%] md:mx-[10%] text-center'>
+                A written examination is held in various cities in India, specifically, Kolkata, Durgapur, Siliguri separately for the two categories. The corresponding papers consist of two sections. Section I has objective problems (MCQ and/or integer-type) and Section II has subjective problems. The applicants are given two and half hours to solve the paper. Based on their composite scores in the objective and subjective sections, students securing marks above a certain cut-off qualify for the MTRP Camp. The cut-offs are not predetermined and are separate for the Junior and the Senior Category students as well as for the online and offline candidates. The list of selected candidates will be uploaded in the MTRP website and the candidates will also be individually informed.
+                </p>
+            </div>        
       </main>
 
       <Footer></Footer>
