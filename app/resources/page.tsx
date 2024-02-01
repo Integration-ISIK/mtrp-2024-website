@@ -1,6 +1,6 @@
 'use client';
-import Header from './_components/header';
-import Footer from './_components/footer';
+import Header from '../_components/header';
+import Footer from '../_components/footer';
 import { MouseEventHandler } from 'react';
 
 const RegisterLinkEvent: MouseEventHandler<HTMLButtonElement> = (event) => {
