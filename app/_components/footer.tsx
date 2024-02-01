@@ -71,7 +71,7 @@ export default function Footer() {
                 <div className="spacer"></div>
                 <ul>
                   <li><a href="/gallery">Gallery</a></li>
-                  <li><a href="">Merchandise</a></li>
+                  <li><a href="">Prizes and Merchandise</a></li>
                   <li><a href="">Resources</a></li>
                   <li><a href="/contact">Contact Us</a></li>
                   <li><a href="/team">Our Team</a></li>
