@@ -24,18 +24,17 @@ export default function Resources() {
             Students appearing in MTRP 2024 will get the unique opportunity to purchase a limited edition MTRP Problem Primer (Divide & Conquer) published by Integration, Indian Statistical Institute. Handcrafted by a team of RMO and INMO awardees and several students at the Indian Statistical Institute, Kolkata and Bangalore centres, the atypical content of the book will help the talented students in learning mathematics through solving problems in an unorthodox fashion not covered at the high school level. While designed for students appearing for MTRP as a taste of what is in suit for them in the examination, it is also a great resource as a problem repository for several examinations like Olympiads. The book is made available at a relatively nominal price for the amount of content provided, as we strongly believe that learning should be accessible to everybody.
             </p>
             <p className='text-xl p-2 pb-6 font-light md:text-2xl'>A sneak peek from the topic Base Systems in Number Theory <a href="https://drive.google.com/file/d/1jsMz3Xw3u4SPMN8wMNdp0daf9HWa1XZ2/view" className='text-red-500'>here!</a></p>
-          </div>
-        </div>
-
-        <div className='flex flex-row flex-wrap justify-center gap-4'>
-          <div className='max-w-[90%] md:max-w-[45%] bg-[#0D1F35] rounded-[4rem]'>
-            <div className=" whitespace-pre-line font-bold text-3xl md:text-4xl px-2 pt-4">
-              <p className='text-[#F1AF57] md:pb-0 text-center'>Level 1</p>
-            </div>
-            <p className='pt-2 pb-10 md:text-xl text-[#ffffff] leading-8 mx-[4%] md:mx-[10%] text-center'>
-                A written examination is held in various cities in India, specifically, Kolkata, Durgapur, Siliguri separately for the two categories. The corresponding papers consist of two sections. Section I has objective problems (MCQ and/or integer-type) and Section II has subjective problems. The applicants are given two and half hours to solve the paper. Based on their composite scores in the objective and subjective sections, students securing marks above a certain cut-off qualify for the MTRP Camp. The cut-offs are not predetermined and are separate for the Junior and the Senior Category students as well as for the online and offline candidates. The list of selected candidates will be uploaded in the MTRP website and the candidates will also be individually informed.
-            </p>
           </div>        
+          <div className='flex flex-row flex-wrap justify-center gap-4'>
+            <div className='max-w-[90%] md:max-w-[45%] bg-[#0D1F35] rounded-[4rem]'>
+              <div className=" whitespace-pre-line font-bold text-3xl md:text-4xl px-2 pt-4">
+                <p className='text-[#F1AF57] md:pb-0 text-center'>Rules and regulations</p>
+              </div>
+              <p className='pt-2 pb-10 md:text-xl text-[#ffffff] leading-8 mx-[4%] md:mx-[10%] text-center'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>        
+          </div>
         </div>
       </main>
 
