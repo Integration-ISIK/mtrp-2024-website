@@ -72,7 +72,7 @@ export default function Footer() {
                 <ul>
                   <li><a href="/gallery">Gallery</a></li>
                   <li><a href="">Prizes and Merchandise</a></li>
-                  <li><a href="">Resources</a></li>
+                  <li><a href="/resources">Resources</a></li>
                   <li><a href="/contact">Contact Us</a></li>
                   <li><a href="/team">Our Team</a></li>
                 </ul>
