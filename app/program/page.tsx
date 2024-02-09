@@ -41,6 +41,9 @@ export default function Program(): JSX.Element {
                 <div className="whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
                   <p className="text-[#3E4154] md:pb-2">Syllabus</p>
                 </div>
+                <p className='pt-2 pb-10 md:text-xl text-black leading-8 mx-[4%] md:mx-[10%]'>
+                  The syllabi for Junior and Senior Categories can be downloaded from <a href="/resources" className='text-red-500'>Resources</a> section.
+                </p>                
                 <div className="flex flex-col text-xl pt-2 pb-10 md:text-2xl text-black">
                   <div className="flex flex-row justify-start">
                     <p className="px-2 md:pb-2">Junior Category</p>
