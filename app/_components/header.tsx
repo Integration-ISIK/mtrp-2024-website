@@ -43,7 +43,7 @@ export default function Nav(){
                   <a href="/program" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">Program</a>
                 </li>
                 <li>
-                  <a href="/contact" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">Contact Us</a>
+                  <a href="/resources" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">Resources</a>
                 </li>
                 <li>
                   <a href="/gallery" className="block rounded px-2 py-2 hover:bg-gray-100 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 border-gray-700 text-white">Gallery</a>
