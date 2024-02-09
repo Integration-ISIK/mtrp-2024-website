@@ -34,14 +34,7 @@ export default function Program(): JSX.Element {
                   A written examination is held in various cities in India, specifically, Kolkata, Durgapur, Siliguri separately for the two categories. The corresponding papers consist of two sections. Section I has objective problems (MCQ and/or integer-type) and Section II has subjective problems. The applicants are given two and half hours to solve the paper. Based on their composite scores in the objective and subjective sections, students securing marks above a certain cut-off qualify for the MTRP Camp. The cut-offs are not predetermined and are separate for the Junior and the Senior Category students as well as for the online and offline candidates. The list of selected candidates will be uploaded in the MTRP website and the candidates will also be individually informed.
                 </p>
               </div>
-              <div className='max-w-[90%] md:max-w-[45%] bg-[#0D1F35] rounded-[4rem]'>
-                <div className=" whitespace-pre-line font-bold text-3xl md:text-4xl px-2 pt-4">
-                  <p className='text-[#F1AF57] md:pb-0 text-center'>Level 2</p>
-                </div>
-                <p className='pt-2 pb-10 md:text-xl text-[#ffffff] leading-8 mx-[4%] md:mx-[10%] text-center'>
-                  The selected candidates are required to attend a three day camp. This camp features lectures from mathematicians, ISI faculties, renowned scholars from other universities, and other experts from various fields of Mathematics and Statistics. These lectures are based on interesting topics related to mathematics, thereby providing enthusiasts with lots of food for thought. Throughout the camp, quizzes are held periodically to judge the skills and problem-solving potential of the students. Based on their performance in the camp, the top few students are rewarded (separate for online and offline candidates).
-                </p>
-              </div>
+
             </div>
             <div className="bg-cover bg-left-top h-auto max-w-screen pt-4">
               <div className="md:p-2">
@@ -68,6 +61,14 @@ export default function Program(): JSX.Element {
                     </ul>
                   </div>
                 </div>
+              </div>
+              <div className='max-w-[90%] md:max-w-[45%] bg-[#0D1F35] rounded-[4rem]'>
+                <div className=" whitespace-pre-line font-bold text-3xl md:text-4xl px-2 pt-4">
+                  <p className='text-[#F1AF57] md:pb-0 text-center'>Level 2</p>
+                </div>
+                <p className='pt-2 pb-10 md:text-xl text-[#ffffff] leading-8 mx-[4%] md:mx-[10%] text-center'>
+                  The selected candidates are required to attend a three day camp. This camp features lectures from mathematicians, ISI faculties, renowned scholars from other universities, and other experts from various fields of Mathematics and Statistics. These lectures are based on interesting topics related to mathematics, thereby providing enthusiasts with lots of food for thought. Throughout the camp, quizzes are held periodically to judge the skills and problem-solving potential of the students. Based on their performance in the camp, the top few students are rewarded (separate for online and offline candidates).
+                </p>
               </div>
             </div>
           </div>
