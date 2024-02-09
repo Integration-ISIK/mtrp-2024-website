@@ -18,9 +18,9 @@ export default function Program() {
         <div className="bg-[#15f7ff2d] bg-cover bg-left-top h-auto max-w-screen pt-4" >
             <div className="md:p-2">
                 <div className=" whitespace-pre-line font-bold text-4xl md:text-6xl px-2">
-                    <p className='text-[#3E4154] md:pb-2 text-center'>Program</p>
+                    <p className='text-[#3E4154] md:pb-2'>Program</p>
                 </div>
-                <p className='text-xl pt-2 pb-10 md:text-2xl text-black leading-8 mx-[10%] text-center'>
+                <p className='text-xl pt-2 pb-10 md:text-2xl text-black leading-8 mx-[10%]'>
                 The programme consists of a written examination and a camp. The competition will be held in two categories, one for students studying in or below X (Junior Category) standard and the other for classes XI and XII (Senior Category). Moreover, this time the examination is being held in both online and offline mode in order to extend the availability of this unique experience to the students for whom it will be difficult to report to the designated centres for an offline examination.
                 </p>
                 <p className='text-xl pt-2 pb-10 md:text-2xl text-black text-center leading-8 mx-[4%] md:mx-[10%]'>
@@ -44,7 +44,33 @@ export default function Program() {
                         </p>
                     </div>
                 </div>
-            </div>
+                <div className="bg-[#7F8193] bg-cover bg-left-top h-auto max-w-screen pt-4">
+                    <div className="md:p-2">
+                        <div className="whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
+                            <p className="text-[#F9DEB5] md:pb-2">Syllabus</p>
+                        </div>
+                        <div className="flex flex-col text-xl pt-2 pb-10 md:text-2xl text-white">
+                            <div className="flex flex-row justify-start">
+                                <p className="px-2 md:pb-2">Junior Category: Classes VII-X</p>
+                                <ul className="px-2 md:pb-2">
+                                    <li>Number Theory: Divisibility and Primes, GCD and Division Algorithm, Bezout's Theorem, Congruence, Base Systems, Fermat and Euler's theorem</li>
+                                    <li>Combinatorics: Basic Counting Principles, Permutations and Combinations, Permutations with Repetitions and on Circle, Inclusion Exclusion Principle, Pigeonhole Principle</li>
+                                    <li>Geometry: Congruence of Triangles, Ruler and Compass Constructions, Midpoint Theorem, Thales' Theorem and Similarity, Area Ratios and Ceva Menelaus Theorems, Properties of Circles and Tangents, Basic Angle Chasing</li>
+                                    <li>Algebra and Miscellaneous: Basic Set Theory and Set Operations, Principle of Mathematical Induction, Simultaneous Linear Equations, Word Problems and Puzzles, Basic Laws of Inequalities, AM-GM-HM inequality, Cauchy-Schwarz inequality, Basic Operations on Polynomials, Polynomial Division and GCD, Remainder and Factor Theorems, Fundamental Theorem of Algebra, Quadratic Polynomials and Equations, Vieta's Relations</li>
+                                </ul>
+                            </div>
+                            <div className="flex flex-row justify-start">
+                                <p className="px-2 md:pb-2">Senior Category: Classes XI and XII</p>
+                                <ul className="px-2 md:pb-2">
+                                    <li>Number Theory: Divisibility and Primes, GCD and Division Algorithm, Bezout's Theorem, Congruence and Inverses, Base Systems, Fermat and Euler's Theorems, Wilson and Chinese Remainder Theorems</li>
+                                    <li>Combinatorics: Basic Counting Principles, Permutations and Combinations, Permutations with Repetitions and on Circle, Inclusion Exclusion Principle, Pigeonhole Principle, Recurrences, Invariance Monovariance and Extremal Principles</li>
+                                    <li>Geometry and Trigonometry: Properties of triangles and properties of circles, properties of trigonometric functions</li>
+                                    <li>Algebra and Miscellaneous: Basic Set Theory and Set Operations, Principle of Mathematical Induction,  Word Problems and Puzzles, Elementary Functional Equations, Basic Laws of Inequalities, AM-GM-HM inequality, Cauchy-Schwarz inequality, Rearrangement and Chebyshev Inequalities, Jensen Inequality, Basic Operations on Polynomials, Polynomial Division and GCD, Remainder and Factor Theorems, Fundamental Theorem of Algebra, Quadratic Polynomials and Equations, Complex Numbers, Vieta's Relations, Integer Polynomials, Calculus, Sequence, limit of a function, differentiation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
         </main>
         <Footer></Footer>
