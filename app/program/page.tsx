@@ -47,7 +47,7 @@ export default function Program(): JSX.Element {
                 <div className="flex flex-col text-xl pt-2 pb-10 md:text-2xl text-black">
                   <div className="flex flex-row justify-start">
                     <p className="px-2 md:pb-2">Junior Category</p>
-                    <ul className="text-xl pt-2 pb-10 md:text-2xl text-black leading-8 mx-[10%]">
+                    <ul className="text-xl pt-2 pb-10 md:text-xl text-black leading-8 mx-[10%]">
                       <li><span className="font-bold">Number Theory:</span> Divisibility and Primes, GCD and Division Algorithm, Bezout&apos;s Theorem, Congruence, Base Systems, Fermat and Euler&apos;s theorem</li>
                       <li><span className="font-bold">Combinatorics:</span> Basic Counting Principles, Permutations and Combinations, Permutations with Repetitions and on Circle, Inclusion Exclusion Principle, Pigeonhole Principle</li>
                       <li><span className="font-bold">Geometry:</span> Congruence of Triangles, Ruler and Compass Constructions, Midpoint Theorem, Thales&apos; Theorem and Similarity, Area Ratios and Ceva Menelaus Theorems, Properties of Circles and Tangents, Basic Angle Chasing</li>
@@ -56,7 +56,7 @@ export default function Program(): JSX.Element {
                   </div>
                   <div className="flex flex-row justify-start">
                     <p className="px-2 md:pb-2">Senior Category</p>
-                    <ul className="text-xl pt-2 pb-5 md:text-2xl text-black leading-8 mx-[10%]">
+                    <ul className="text-xl pt-2 pb-5 md:text-xl text-black leading-8 mx-[10%]">
                       <li><span className="font-bold">Number Theory:</span> Divisibility and Primes, GCD and Division Algorithm, Bezout&apos;s Theorem, Congruence and Inverses, Base Systems, Fermat and Euler&apos;s Theorems, Wilson and Chinese Remainder Theorems</li>
                       <li><span className="font-bold">Combinatorics:</span> Basic Counting Principles, Permutations and Combinations, Permutations with Repetitions and on Circle, Inclusion Exclusion Principle, Pigeonhole Principle, Recurrences, Invariance Monovariance and Extremal Principles</li>
                       <li><span className="font-bold">Geometry and Trigonometry:</span> Properties of triangles and properties of circles, properties of trigonometric functions</li>
@@ -109,7 +109,31 @@ export default function Program(): JSX.Element {
                 <p className='leading-5 p-2 md:text-xl'>
                   <span className="font-bold">No cancellation of registration is allowed under any circumstances once the fees for MTRP 2024 are paid</span>. In case of deduction from your account without confirmation, wait for 2 – 3 working days before attempting re-registration. Avoid multiple payments, even if they exceed the registration deadline. In the case of multiple registrations and payments, you will be held responsible, and refunds will not be issued under normal circumstances. Extraordinary situations may be addressed with sufficient proof and at the discretion of the MTRP Team.
                 </p>
-              </div>                   
+              </div>
+              <div className="md:p-2">
+                <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
+                  <p className='text-[#3E4154] md:pb-2'>Examination</p>
+                </div>
+                <p className='leading-5 p-2 md:text-xl'>
+                  Applicants are allocated <span className="font-bold">2.5 hours</span> to complete the entire paper.
+                </p>
+                <p className='leading-5 p-2 md:text-xl'>
+                  <span className="font-bold">The exam is closed-book, with no calculators or electronic devices allowed</span>. Violation of rules or use of unfair means will result in the immediate disqualification of the candidate.
+                </p>
+                <p className='leading-5 p-2 md:text-xl'>
+                  Candidates must present the following documents during the examination:
+                </p>
+                <ul className="text-xl pt-2 pb-10 md:text-xl text-black leading-5 mx-[10%]">
+                  <li>Copy of their <span className="font-bold">Admit Card</span></li>
+                  <li>Copy of a <span className="font-bold">valid Identification Proof (e.g., Aadhaar Card) containing their Date of Birth</span></li>
+                  <li>Copy of <span className="font-bold">Proof of Payment</span></li>
+                <p className='leading-5 p-2 md:text-2xl font-bold'>
+                  Instructions specific to Offline Examinees
+                </p>
+                <p className='leading-5 p-2 md:text-2xl font-bold'>
+                  Instructions specific to Online Examinees
+                </p>
+              </div>
             </div>
           </div>
         </div>
