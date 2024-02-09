@@ -26,7 +26,7 @@ export default function Program(): JSX.Element {
               Students from each category are selected for the math camp based on their performance in the written test. The camp consists of interactive sessions with mathematicians, ISI faculties and scholars from other universities, along with a few exercises. Based on the performance in the camp, the top few students from each category are rewarded.
             </p>
             <div className='flex flex-row flex-wrap justify-center gap-4'>
-              <div className='max-w-[90%] md:max-w-[45%] bg-[#0D1F35] rounded-[4rem]'>
+              <div className='max-w-[90%] md:max-w-[60%] bg-[#0D1F35] rounded-[4rem]'>
                 <div className=" whitespace-pre-line font-bold text-3xl md:text-4xl px-2 pt-4">
                   <p className='text-[#F1AF57] md:pb-0 text-center'>Level 1</p>
                 </div>
@@ -63,7 +63,7 @@ export default function Program(): JSX.Element {
                 </div>
               </div>
               <div className='flex flex-row flex-wrap justify-center gap-4'>
-                <div className='max-w-[90%] md:max-w-[45%] bg-[#0D1F35] rounded-[4rem]'>
+                <div className='max-w-[90%] md:max-w-[60%] bg-[#0D1F35] rounded-[4rem]'>
                   <div className=" whitespace-pre-line font-bold text-3xl md:text-4xl px-2 pt-4">
                     <p className='text-[#F1AF57] md:pb-0 text-center'>Level 2</p>
                   </div>
