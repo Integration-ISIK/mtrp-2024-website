@@ -123,7 +123,7 @@ export default function Program(): JSX.Element {
                 <p className='leading-5 p-2 md:text-xl'>
                   Candidates must present the following documents during the examination:
                 </p>
-                <ul className="text-xl pt-2 pb-10 md:text-xl text-black leading-5 mx-[10%]">
+                <ul className="text-xl pt-2 pb-4 md:text-xl text-black leading-5 mx-[10%]">
                   <li>Copy of their <span className="font-bold">Admit Card</span></li>
                   <li>Copy of a <span className="font-bold">valid Identification Proof (e.g., Aadhaar Card) containing their Date of Birth</span></li>
                   <li>Copy of <span className="font-bold">Proof of Payment</span></li>
@@ -131,10 +131,75 @@ export default function Program(): JSX.Element {
                 <p className='leading-5 p-2 md:text-2xl font-bold'>
                   Instructions specific to Offline Examinees
                 </p>
+                <p className='leading-8 p-2 md:text-xl'>
+                  The offline examination will be held in various centers in West Bengal, namely:
+                </p>
+                <ul className="text-xl pt-2 pb-4 md:text-xl text-black leading-5 mx-[10%]">
+                  <li>North Kolkata</li>
+                  <li>South Kolkata</li>
+                  <li>Durgapur</li>
+                </ul>
+                <p className='leading-8 p-2 md:text-xl'>
+                  Arrive at the examination center one hour before the scheduled start. Entry to the examination halls will be permitted up to 15 minutes after the test commencement.
+                </p>
+                <p className='leading-8 p-2 md:text-xl'>
+                  Stationery items may be carried in a transparent pouch.
+                </p>
+                <p className='leading-8 p-2 md:text-xl'>
+                  No student will be allowed to leave the exam room within one and a half hours of the exam’s commencement, except during an emergency situation, to be decided at the discretion of the invigilators.
+                </p>
+                <p className='leading-8 p-2 md:text-xl'>
+                  Selected students for the camp have the privilege of attending in person, with the option to attend in online mode.
+                </p>
                 <p className='leading-5 p-2 md:text-2xl font-bold'>
                   Instructions specific to Online Examinees
                 </p>
-              
+                <p className='leading-8 p-2 md:text-xl'>
+                  Candidates attempting the written examination online would be added to a Google Classroom for the purpose of submitting the answers. On the examination day candidates would be required to join a Google Meet whose joining link would be provided in the Google Classroom.
+                </p>
+                <p className='leading-8 p-2 md:text-xl'>
+                  The examination will be posted as a timed assignment on Google Classroom. An additional 5 minutes will be provided at the end of the exam to scan and submit solutions for the Subjective Section (Section B). During this time, students may use their mobile devices. However, if the paper is submitted after x minutes from the scheduled time, a penalty of 2x marks will be applied. No submission will be entertained after 10 minutes beyond the scheduled time. Answers are to be submitted in Google Classroom using the “Turn in” button.
+                </p>
+                <p className='leading-8 p-2 md:text-xl'>
+                  Online mode is available only for those with a working desktop or laptop equipped with a functioning webcam and stable internet. The webcam must be active throughout the exam. Mobile devices are not permitted for the exam.
+                </p>
+                <p className='leading-8 p-2 md:text-xl'>
+                  Proctoring will be done by an invigilator who will be present throughout the meeting. Every candidate must keep their video (and microphone, at the invigilators’ discretion) on at all times; a 2-minute absence within the video’s focus will result in automatic disqualification unless a valid reason is communicated to the invigilator. A similar penalty will apply if the invigilator detects tab-switching.
+                </p>
+                <p className='leading-8 p-2 md:text-xl'>
+                  No student will be allowed to leave the meeting within one and a half hours of the exam’s commencement, except during an emergency situation, to be decided at the discretion of the invigilators. In the event of network instabilities, a student may re-enter the meeting once, provided they rejoin within 2 minutes of disconnection.
+                </p>
+                <p className='leading-8 p-2 md:text-xl'>
+                  <span className="font-bold">Students selected through the online mode will attend the camp exclusively online</span>, via a designated video conferencing platform (e.g., Zoom). Lectures in the offline camp will be live-streamed to ensure equal access for online attendees.
+                </p>
+              </div>
+              <div className="md:p-2">
+                <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
+                  <p className='text-[#3E4154] md:pb-2'>Evaluation</p>
+                </div>
+                <p className='leading-5 p-2 md:text-xl'>
+                  <span className="font-bold">The examination of online and offline candidates will be evaluated separately, each with its own cut-offs. This applies to both Junior and Senior categories.</span>
+                </p>
+                <p className='leading-5 p-2 md:text-xl'>
+                  Subjective problem answers will be evaluated only if the candidate clears a certain cut-off in the Objective section.
+                </p>
+                <p className='leading-5 p-2 md:text-xl'>
+                  Based on composite scores in the Subjective and Objective sections (subject to clearing the Objective cut-off), students achieving a certain cut-off score will receive invitations to attend a camp scheduled for 29 – 31 March 2024.
+                </p>
+                <p className='leading-5 p-2 md:text-xl'>
+                  Final winners will be selected based on their performance in the quizzes conducted during the camp.
+                </p>
+              </div>
+              <div className="md:p-2">
+                <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
+                  <p className='text-[#3E4154] md:pb-2'>Camp and Awards</p>
+                </div>
+                <p className='leading-5 p-2 md:text-xl'>
+                  The MTRP 2024 Camp, led by a team comprising past INMO awardees, features lectures from mathematicians, ISI faculties, renowned scholars from other universities, and other experts in various fields of Mathematics and Statistics. Periodic quizzes will be held to assess the skills and problem-solving potential of the students.
+                </p>
+                <p className='leading-5 p-2 md:text-xl'>
+                  <span className="font-bold">Top-performing students in each category will be rewarded with prizes worth &#8377;60,000, including medals, books, and merch, among others. Cash prizes are also available. Every student selected for the camp will receive certificates and other prizes.</span>
+                </p>
               </div>
             </div>
           </div>
