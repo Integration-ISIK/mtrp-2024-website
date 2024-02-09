@@ -14,7 +14,60 @@ export default function Resources() {
             <img src="/img/mtrp_ico_white_withtext.webp" className="w-[13rem] md:w-[25rem]" alt="" />
           </div>
         </div>
-
+        <div className="bg-[#7F8193] bg-cover bg-left-top h-auto max-w-screen pt-4" >
+            <div className="md:p-2">
+                <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl  px-2">
+                    <p className='text-[#F9DEB5] md:pb-2'>Eligibility</p>
+                </div>
+                <div className="flex flex-col text-xl pt-2 pb-10 md:text-2xl text-white">
+                    <div className="flex flex-row justify-start">
+                        <p className='px-2 md:pb-2'>Junior Category: </p>
+                        <p className='px-2 md:pb-2'>Classes VII-X</p>
+                    </div>
+                    <div className="flex flex-row justify-start">
+                        <p className='px-2 md:pb-2'>Senior Category: </p>
+                        <p className='px-2 md:pb-2'>Classes XI and XII </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="bg-[#7F8193] bg-cover bg-left-top h-auto max-w-screen pt-4" >
+            <div className="md:p-2">
+                <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl  px-2">
+                    <p className='text-[#F9DEB5] md:pb-2'>Syllabus</p>
+                </div>
+                <div className="flex flex-col text-xl pt-2 pb-10 md:text-2xl text-white">
+                    <div className="flex flex-row justify-start">
+                        <p className='px-2 md:pb-2'>Junior Category: Classes VII-X</p>
+                        <p className='px-2 md:pb-2'>Number Theory:</p>
+                        <p className='px-2 md:pb-2'>Divisibility and Primes, GCD and Division Algorithm, Bezout's Theorem, Congruence , Base Systems, Fermat and Euler's theorem</p> 
+                        <p className='px-2 md:pb-2'>Combinatorics:</p>
+                        <p className='px-2 md:pb-2'>Basic Counting Principles, Permutations and Combinations, Permutations with Repetitions and on Circle, Inclusion Exclusion Principle, Pigeonhole Principle</p>
+                        <p className='px-2 md:pb-2'>Geometry:</p>
+                        <p className='px-2 md:pb-2'>Congruence of Triangles, Ruler and Compass Constructions, Midpoint Theorem, Thales' Theorem and Similarity, Area Ratios and Ceva Menelaus Theorems, Properties of Circles and Tangents, Basic Angle Chasing</p>
+                        <p className='px-2 md:pb-2'>Algebra and Miscellaneous:</p>
+                        <p className='px-2 md:pb-2'>Basic Set Theory and Set Operations, Principle of Mathematical Induction, Simultaneous Linear Equations, Word Problems and Puzzles</p>
+                        <p className='px-2 md:pb-2'>Basic Laws of Inequalities, AM-GM-HM inequality, Cauchy-Schwarz inequality </p>
+                        <p className='px-2 md:pb-2'>Basic Operations on Polynomials, Polynomial Division and GCD, Remainder and Factor Theorems, Fundamental Theorem of Algebra, Quadratic Polynomials and Equations, Vieta's Relations</p>
+                    </div>
+                    <div className="flex flex-row justify-start">
+                        <p className='px-2 md:pb-2'>Senior Category: Classes XI and XII</p>
+                        <p className='px-2 md:pb-2'>Number Theory:</p>
+                        <p className='px-2 md:pb-2'>Divisibility and Primes, GCD and Division Algorithm, Bezout's Theorem, Congruence and Inverses, Base Systems, Fermat and Euler's Theorems, Wilson and Chinese Remainder Theorems</p>
+                        <p className='px-2 md:pb-2'>Combinatorics:</p>
+                        <p className='px-2 md:pb-2'>Basic Counting Principles, Permutations and Combinations, Permutations with Repetitions and on Circle, Inclusion Exclusion Principle, Pigeonhole Principle, Recurrences, Invariance Monovariance and Extremal Principles</p>
+                        <p className='px-2 md:pb-2'>Geometry and Trigonometry:</p>
+                        <p className='px-2 md:pb-2'>Properties of triangles and properties of circles, properties of trigonometric functions</p>
+                        <p className='px-2 md:pb-2'>Algebra and Miscellaneous:</p>
+                        <p className='px-2 md:pb-2'>Basic Set Theory and Set Operations, Principle of Mathematical Induction,  Word Problems and Puzzles, Elementary Functional Equations</p>
+                        <p className='px-2 md:pb-2'>Basic Laws of Inequalities, AM-GM-HM inequality, Cauchy-Schwarz inequality, Rearrangement and Chebyshev Inequalities, Jensen Inequality</p>
+                        <p className='px-2 md:pb-2'>Basic Operations on Polynomials, Polynomial Division and GCD, Remainder and Factor Theorems, Fundamental Theorem of Algebra, Quadratic Polynomials and Equations, Complex Numbers, Vieta's Relations, Integer Polynomials</p>
+                        <p className='px-2 md:pb-2'>Calculus</p> 
+                        <p className='px-2 md:pb-2'>Sequence, limit of a function, differentiation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div className="bg-[#15f7ff2d] bg-cover bg-left-top h-auto max-w-screen pt-4">
           <div className="md:p-2">
             <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
@@ -25,16 +78,6 @@ export default function Resources() {
             </p>
             <p className='text-xl p-2 pb-6 font-light md:text-2xl'>A sneak peek from the topic Base Systems in Number Theory <a href="https://drive.google.com/file/d/1jsMz3Xw3u4SPMN8wMNdp0daf9HWa1XZ2/view" className='text-red-500'>here!</a></p>
           </div>        
-          <div className='flex flex-row flex-wrap justify-center gap-4'>
-            <div className='max-w-[90%] md:max-w-[45%] bg-[#0D1F35] rounded-[4rem]'>
-              <div className=" whitespace-pre-line font-bold text-3xl md:text-4xl px-2 pt-4">
-                <p className='text-[#F1AF57] md:pb-0 text-center'>Rules and regulations</p>
-              </div>
-              <p className='pt-2 pb-10 md:text-xl text-[#ffffff] leading-8 mx-[4%] md:mx-[10%] text-center'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>        
-          </div>
         </div>
       </main>
 
