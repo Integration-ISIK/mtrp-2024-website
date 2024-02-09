@@ -3,7 +3,6 @@ import Header from '../_components/header';
 import Footer from '../_components/footer';
 import { MouseEventHandler } from 'react';
 
-
 export default function Program(): JSX.Element {
   return (
     <div className='flex flex-col w-full h-auto bg-[#EBEEF4]'>
@@ -53,19 +52,19 @@ export default function Program(): JSX.Element {
                   <div className="flex flex-row justify-start">
                     <p className="px-2 md:pb-2">Junior Category: Classes VII-X</p>
                     <ul className="px-2 md:pb-2">
-                      <li>Number Theory: Divisibility and Primes, GCD and Division Algorithm, Bezout's Theorem, Congruence, Base Systems, Fermat and Euler's theorem</li>
+                      <li>Number Theory: Divisibility and Primes, GCD and Division Algorithm, Bezout&apos;s Theorem, Congruence, Base Systems, Fermat and Euler&apos;s theorem</li>
                       <li>Combinatorics: Basic Counting Principles, Permutations and Combinations, Permutations with Repetitions and on Circle, Inclusion Exclusion Principle, Pigeonhole Principle</li>
-                      <li>Geometry: Congruence of Triangles, Ruler and Compass Constructions, Midpoint Theorem, Thales' Theorem and Similarity, Area Ratios and Ceva Menelaus Theorems, Properties of Circles and Tangents, Basic Angle Chasing</li>
-                      <li>Algebra and Miscellaneous: Basic Set Theory and Set Operations, Principle of Mathematical Induction, Simultaneous Linear Equations, Word Problems and Puzzles, Basic Laws of Inequalities, AM-GM-HM inequality, Cauchy-Schwarz inequality, Basic Operations on Polynomials, Polynomial Division and GCD, Remainder and Factor Theorems, Fundamental Theorem of Algebra, Quadratic Polynomials and Equations, Vieta's Relations</li>
+                      <li>Geometry: Congruence of Triangles, Ruler and Compass Constructions, Midpoint Theorem, Thales&apos; Theorem and Similarity, Area Ratios and Ceva Menelaus Theorems, Properties of Circles and Tangents, Basic Angle Chasing</li>
+                      <li>Algebra and Miscellaneous: Basic Set Theory and Set Operations, Principle of Mathematical Induction, Simultaneous Linear Equations, Word Problems and Puzzles, Basic Laws of Inequalities, AM-GM-HM inequality, Cauchy-Schwarz inequality, Basic Operations on Polynomials, Polynomial Division and GCD, Remainder and Factor Theorems, Fundamental Theorem of Algebra, Quadratic Polynomials and Equations, Vieta&apos;s Relations</li>
                     </ul>
                   </div>
                   <div className="flex flex-row justify-start">
                     <p className="px-2 md:pb-2">Senior Category: Classes XI and XII</p>
                     <ul className="px-2 md:pb-2">
-                      <li>Number Theory: Divisibility and Primes, GCD and Division Algorithm, Bezout's Theorem, Congruence and Inverses, Base Systems, Fermat and Euler's Theorems, Wilson and Chinese Remainder Theorems</li>
+                      <li>Number Theory: Divisibility and Primes, GCD and Division Algorithm, Bezout&apos;s Theorem, Congruence and Inverses, Base Systems, Fermat and Euler&apos;s Theorems, Wilson and Chinese Remainder Theorems</li>
                       <li>Combinatorics: Basic Counting Principles, Permutations and Combinations, Permutations with Repetitions and on Circle, Inclusion Exclusion Principle, Pigeonhole Principle, Recurrences, Invariance Monovariance and Extremal Principles</li>
                       <li>Geometry and Trigonometry: Properties of triangles and properties of circles, properties of trigonometric functions</li>
-                      <li>Algebra and Miscellaneous: Basic Set Theory and Set Operations, Principle of Mathematical Induction,  Word Problems and Puzzles, Elementary Functional Equations, Basic Laws of Inequalities, AM-GM-HM inequality, Cauchy-Schwarz inequality, Rearrangement and Chebyshev Inequalities, Jensen Inequality, Basic Operations on Polynomials, Polynomial Division and GCD, Remainder and Factor Theorems, Fundamental Theorem of Algebra, Quadratic Polynomials and Equations, Complex Numbers, Vieta's Relations, Integer Polynomials, Calculus, Sequence, limit of a function, differentiation</li>
+                      <li>Algebra and Miscellaneous: Basic Set Theory and Set Operations, Principle of Mathematical Induction,  Word Problems and Puzzles, Elementary Functional Equations, Basic Laws of Inequalities, AM-GM-HM inequality, Cauchy-Schwarz inequality, Rearrangement and Chebyshev Inequalities, Jensen Inequality, Basic Operations on Polynomials, Polynomial Division and GCD, Remainder and Factor Theorems, Fundamental Theorem of Algebra, Quadratic Polynomials and Equations, Complex Numbers, Vieta&apos;s Relations, Integer Polynomials, Calculus, Sequence, limit of a function, differentiation</li>
                     </ul>
                   </div>
                 </div>
@@ -78,3 +77,4 @@ export default function Program(): JSX.Element {
     </div>
   );
 }
+
