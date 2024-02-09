@@ -123,7 +123,7 @@ export default function Program(): JSX.Element {
                 <p className='leading-5 p-2 md:text-xl'>
                   Candidates must present the following documents during the examination:
                 </p>
-                <ul className="text-xl pt-2 pb-4 md:text-xl text-black leading-5 mx-[10%]">
+                <ul className="text-xl pt-2 pb-4 md:text-xl text-black leading-3 mx-[10%]">
                   <li>Copy of their <span className="font-bold">Admit Card</span></li>
                   <li>Copy of a <span className="font-bold">valid Identification Proof (e.g., Aadhaar Card) containing their Date of Birth</span></li>
                   <li>Copy of <span className="font-bold">Proof of Payment</span></li>
@@ -134,10 +134,10 @@ export default function Program(): JSX.Element {
                 <p className='leading-8 p-2 md:text-xl'>
                   The offline examination will be held in various centers in West Bengal, namely:
                 </p>
-                <ul className="text-xl pt-2 pb-4 md:text-xl text-black leading-5 mx-[10%]">
-                  <li>North Kolkata</li>
-                  <li>South Kolkata</li>
-                  <li>Durgapur</li>
+                <ul className="text-xl pt-2 pb-4 md:text-xl text-black leading-3 mx-[10%]">
+                  <li>-North Kolkata</li>
+                  <li>-South Kolkata</li>
+                  <li>-Durgapur</li>
                 </ul>
                 <p className='leading-8 p-2 md:text-xl'>
                   Arrive at the examination center one hour before the scheduled start. Entry to the examination halls will be permitted up to 15 minutes after the test commencement.
