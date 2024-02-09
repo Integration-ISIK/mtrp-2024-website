@@ -77,7 +77,7 @@ export default function Program(): JSX.Element {
                 </div>
               </div>
               <div className="md:p-2">
-                <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
+                <div className="bg-[#F1AF57] whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
                   <p className='text-[#3E4154] md:pb-2'>Eligibility</p>
                 </div>
                 <p className='leading-5 p-2 md:text-xl'>
