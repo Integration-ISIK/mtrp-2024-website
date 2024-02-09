@@ -29,10 +29,10 @@ export default function Resources() {
               <p className='text-[#3E4154] md:pb-2'>Syllabus</p>
             </div>
             <p className='leading-5 p-2 md:text-2xl'>
-            Students appearing for MTRP 2024 in Junior and Senior categories can view the the syllabi in Program section as well download it from here.
+            Students appearing for MTRP 2024 in Junior and Senior categories can view the syllabi in Program section as well download it from here.
             </p>
-            <p className='text-xl p-2 pb-6 font-light md:text-2xl'>MTRP Junior Category Syllabus <a href="" className='text-red-500'>here!</a></p>
-            <p className='text-xl p-2 pb-6 font-light md:text-2xl'>MTRP Senior Category Syllabus <a href="" className='text-red-500'>here!</a></p>
+            <p className='text-xl p-2 pb-6 font-light md:text-2xl'>MTRP 2024 Junior Category Syllabus <a href="" className='text-red-500'>here!</a></p>
+            <p className='text-xl p-2 pb-6 font-light md:text-2xl'>MTRP 2024 Senior Category Syllabus <a href="" className='text-red-500'>here!</a></p>
           </div>       
           <div className="md:p-2">
             <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
