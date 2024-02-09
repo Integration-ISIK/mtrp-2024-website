@@ -127,12 +127,14 @@ export default function Program(): JSX.Element {
                   <li>Copy of their <span className="font-bold">Admit Card</span></li>
                   <li>Copy of a <span className="font-bold">valid Identification Proof (e.g., Aadhaar Card) containing their Date of Birth</span></li>
                   <li>Copy of <span className="font-bold">Proof of Payment</span></li>
+                </ul>
                 <p className='leading-5 p-2 md:text-2xl font-bold'>
                   Instructions specific to Offline Examinees
                 </p>
                 <p className='leading-5 p-2 md:text-2xl font-bold'>
                   Instructions specific to Online Examinees
                 </p>
+              
               </div>
             </div>
           </div>
