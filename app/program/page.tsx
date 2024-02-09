@@ -56,7 +56,7 @@ export default function Program(): JSX.Element {
                   </div>
                   <div className="flex flex-row justify-start">
                     <p className="px-2 md:pb-2">Senior Category</p>
-                    <ul className="text-xl pt-2 pb-10 md:text-2xl text-black leading-8 mx-[10%]">
+                    <ul className="text-xl pt-2 pb-5 md:text-2xl text-black leading-8 mx-[10%]">
                       <li><span className="font-bold">Number Theory:</span> Divisibility and Primes, GCD and Division Algorithm, Bezout&apos;s Theorem, Congruence and Inverses, Base Systems, Fermat and Euler&apos;s Theorems, Wilson and Chinese Remainder Theorems</li>
                       <li><span className="font-bold">Combinatorics:</span> Basic Counting Principles, Permutations and Combinations, Permutations with Repetitions and on Circle, Inclusion Exclusion Principle, Pigeonhole Principle, Recurrences, Invariance Monovariance and Extremal Principles</li>
                       <li><span className="font-bold">Geometry and Trigonometry:</span> Properties of triangles and properties of circles, properties of trigonometric functions</li>
@@ -76,6 +76,40 @@ export default function Program(): JSX.Element {
                   </p>
                 </div>
               </div>
+              <div className="md:p-2">
+                <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
+                  <p className='text-[#3E4154] md:pb-2'>Eligibility</p>
+                </div>
+                <p className='leading-5 p-2 md:text-xl'>
+                  For the <span className="font-bold">Junior Category</span>, applications are invited from students up to Class X (born after 15 March 2006).
+                </p>
+                <p className='leading-5 p-2 md:text-xl'>
+                  For the <span className="font-bold">Senior Category</span>,  only students in Classes XI or XII (born after 15 March 2004) are eligible to apply.
+                </p>
+              </div>
+              <div className="md:p-2">
+                <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
+                  <p className='text-[#3E4154] md:pb-2'>Registration</p>
+                </div>
+                <p className='leading-5 p-2 md:text-xl'>
+                  Registration is open through both online and offline modes. Online registration links are provided on the official website, while offline forms and entry fees can be collected from the head of the institution (principal/headmaster, etc.).
+                </p>
+                <p className='leading-5 p-2 md:text-xl font-bold'>
+                  The registration fee for the Level I qualifying examination is &#8377;270/-, applicable to both categories. There is no additional charge for Level II quizzes for the selected candidates.
+                </p>
+                <p className='leading-5 p-2 md:text-xl'>
+                  For offline candidates, the counterfoil (to be retained by the candidate) serves as proof of payment. For online candidates, a receipt will be sent to the registered email ID shortly before the admit cards. It is imperative to carry a hard copy of the proof of payment to the examination venue. Evaluation of the answer script is subject to verification of the proof of payment.
+                </p>
+                <p className='leading-5 p-2 md:text-xl'>
+                  Admit cards will be dispatched to registered email IDs before the exam, and a copy must be produced during the exam. Online candidates will access a dedicated Google Classroom using their registered email IDs, with the exam conducted through Google Classroom (refer to Special Instructions below for more details).
+                </p>
+                <p className='leading-5 p-2 md:text-xl'>
+                  The registration fee is non-negotiable. It is crucial to ensure accurate details during registration. In the event of incorrect registration, falsified information, or faults during registration, the registration fees shall not be refunded unless accompanied by sufficient proof. In the event of discrepancies between payment and confirmation, please notify us with appropriate evidence for resolution.
+                </p>
+                <p className='leading-5 p-2 md:text-xl'>
+                  <span className="font-bold">No cancellation of registration is allowed under any circumstances once the fees for MTRP 2024 are paid</span>. In case of deduction from your account without confirmation, wait for 2 – 3 working days before attempting re-registration. Avoid multiple payments, even if they exceed the registration deadline. In the case of multiple registrations and payments, you will be held responsible, and refunds will not be issued under normal circumstances. Extraordinary situations may be addressed with sufficient proof and at the discretion of the MTRP Team.
+                </p>
+              </div>                   
             </div>
           </div>
         </div>
