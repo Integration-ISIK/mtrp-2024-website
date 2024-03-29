@@ -7,6 +7,10 @@ const RegisterLinkEvent: MouseEventHandler<HTMLButtonElement> = (event) => {
     window.open('https://forms.gle/qYHpX4Aj9hPceqY17', '_blank');
 };
 
+const ResultEvent: MouseEventHandler<HTMLButtonElement> = (event) => {
+    window.open('/results.pdf', '_blank');
+};
+
 export default function Home() {
   return (
     <div className='flex flex-col w-full h-auto bg-[#EBEEF4]'>
@@ -20,6 +24,23 @@ export default function Home() {
         </div>
         <div className="flex-grow w-full">
         <div className="opacity-20 blur-sm"></div>
+        <div className="bg-[#4dff0097] bg-cover bg-left-top h-auto max-w-screen pt-4" >
+            <div className="md:p-2">
+                <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
+                    <p className='text-[#ff4b4b] md:pb-2'>Results are out!</p>
+                </div>
+                <p className='leading-5 md:text-2xl p-2'>
+                    <div className="font-bold inline">Congratulations</div> to everyone who got selected for the MTRP Camp! 
+                    <div className="hidden md:block inline"> </div>
+                    All the details about the camp has been sent to the students who have been selected. Please check your inbox (and spam, if need be).
+        
+                </p>
+                <button type="button" onClick={ResultEvent}
+                className="mx-4 my-4 text-[#efff14] shadow-lg bg-gradient-to-br from-[#ff0000] to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-md px-5 py-2.5 text-center me-2 mb-2">
+                    Results
+                </button>
+            </div>
+        </div>
         <div className="bg-[#15f7ff2d] bg-cover bg-left-top h-auto max-w-screen pt-4" >
             <div className="md:p-2">
                 <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
