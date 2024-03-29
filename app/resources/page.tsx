@@ -27,6 +27,14 @@ export default function Resources() {
           </div>       
           <div className="md:p-2">
             <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
+              <p className='text-[#3E4154] md:pb-2'> MTRP 2024 Results</p>
+            </div>
+            <p className='leading-5 p-2 md:text-2xl'>
+            The Merit List for MTRP 2024 is to be found <a href="https://drive.google.com/file/d/1hAxJofYtFXHNWLr8SSrK6Hpo6t3voZlh/view?usp=sharing" className='text-red-500'>here!</a>.
+            </p>
+          </div>       
+          <div className="md:p-2">
+            <div className=" whitespace-pre-line font-bold text-2xl md:text-3xl px-2">
               <p className='text-[#3E4154] md:pb-2'>Past Year Question Paper</p>
             </div>
             <p className='leading-5 p-2 md:text-2xl'>Junior Category</p>
